@@ -51,3 +51,11 @@ Hugo官方文档中也有这样的描述：
       unsafe = true
 ```
 实测有效。
+
+## 3. 作为 Github Pages 发布
+
+[使用 Hugo + GitHub Pages 搭建个人博客](https://mogeko.me/2018/018/)
+
+## 4. 页面显示不正确
+
+正确push之后，打开username.github.io，却发现，网页显示不正确，CSS完全没有加载。原因是配置文件里的baseURL我是按insideout.top设置的，所以在根目录下还需要一个CNAME文件，里面填上baseURL域名。问题解决。
