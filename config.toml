@@ -4,12 +4,12 @@ title = "insideout"
 copyright = "2014 - 2020 Chang"
 theme = "diary"
 googleAnalytics = "UA-51193598-1"
-
+disqusShortname = "darkkate"
 [params]
 subtitle = ".top"
 enableGitalk = false
 favicon = "/favicon.ico"
-disqusShortname = "darkkate"
+
 [permalinks]
   posts = "/:year/:month/:title/"
 
