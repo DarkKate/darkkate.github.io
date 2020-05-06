@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curry on insideout</title>
+    <link>http://insideout.top/tags/curry/</link>
+    <description>Recent content in Curry on insideout</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>2014 - 2020 Chang</copyright>
+    <lastBuildDate>Fri, 12 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://insideout.top/tags/curry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trey!</title>
+      <link>http://insideout.top/2015/06/trey/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://insideout.top/2015/06/trey/</guid>
+      <description> @wardell30 stops on a dime for the trey! #NBAFinals #phantomcam
+nba（@NBA）发的视频 · 2015-06-11，21:45 PDT
+    </description>
+    </item>
+    
+    <item>
+      <title>Go Warriors</title>
+      <link>http://insideout.top/2015/06/go-warriors/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://insideout.top/2015/06/go-warriors/</guid>
+      <description> @wardell30&amp;#39;s 27 leads the way for @warriors in Game 3 of the #NBAFinals
+NBA（@nba）发的照片 · 2015-06-9，21:27 PDT
+  </description>
+    </item>
+    
+  </channel>
+</rss>
