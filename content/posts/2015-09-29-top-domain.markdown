@@ -6,6 +6,7 @@ published: true
 tags:
 - 折腾
 title: 买了几个 .top 域名
+featured_image: "/assets/images/2015/09/29/domain-list.png"
 ---
 
 昨天看到枢哥买了 [kagami.top](http://kagami.top) 域名。而且第一年只要6元，续费39元。域名商：[西部数码](http://www.west.cn)
