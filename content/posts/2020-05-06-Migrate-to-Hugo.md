@@ -1,6 +1,7 @@
 ---
 title: "从 Jeykll 迁移到 Hugo"
-date: 2020-05-06T20:45:39+08:00
+date: 2020-05-06
+Lastmod: 2020-05-07
 categories: 折腾
 ---
 
