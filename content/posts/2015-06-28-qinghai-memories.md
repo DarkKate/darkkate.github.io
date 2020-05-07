@@ -1,7 +1,8 @@
 ---
 categories: 旅行
 comments: true
-date: "2015-06-28T00:00:00Z"
+date: "2015-06-28"
+Lastmod: 2018-07-23
 tags:
 - 旅行
 title: 环青海湖的记忆碎片
