@@ -1,5 +1,5 @@
 ---
-title: "Two weeks in Berlin"
+title: "柏林一瞥"
 date: 2020-01-19T22:18:33+08:00
 featured_image: "/assets/images/2020/01/19/IMG_9065.jpg"
 description: 出差之余的见闻
