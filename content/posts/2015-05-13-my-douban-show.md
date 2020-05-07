@@ -30,6 +30,7 @@ title: 我的豆瓣秀
 {{< highlight javascript >}}
 <script type="text/javascript" src="http://www.douban.com/service/badge/DarkKate/?selection=random&amp;picsize=medium&amp;hideself=on&amp;show=collection&amp;n=8&amp;hidelogo=on&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=4"></script>
 {{< / highlight >}}
+
 -----
 
 目前发现了一个很要命的问题：**图片显示不全！**
