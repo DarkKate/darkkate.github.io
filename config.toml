@@ -4,15 +4,15 @@ title = "insideout"
 copyright = "2014 - 2020 Chang"
 theme = "diary"
 googleAnalytics = "UA-51193598-1"
-
+disqusShortname = "insideout-top"
 [params]
 subtitle = ".top"
 enableGitalk = false
 favicon = "/favicon.ico"
-disqusShortname = "insideout-top"
+
 
 [permalinks]
-  posts = "/:year/:month/:title/"
+  posts = "/:year/:month/:day/:slug/"
 
 [params.gitalk]
   owner = "user"
