@@ -20,13 +20,13 @@
         <guid>http://insideout.top/2020/05/06/migrate-to-hugo/</guid>
         <description>insideout http://insideout.top/2020/05/06/migrate-to-hugo/ -&lt;p&gt;终于从 Jekyll 迁移到 Hugo 了。&lt;/p&gt;
 &lt;p&gt;碰到了不少头疼的小问题，还好有 Google，但即使有 Google，还是走了很多弯路，回头看，还是得仔细读官方文档原文。以下是我碰到的麻烦以及帮我解决问题的链接：&lt;/p&gt;
-&lt;h2 id=&#34;1-md文件头部的批量转换&#34;&gt;1. MD文件头部的批量转换&lt;/h2&gt;
+&lt;h2 id=&#34;1-md-文件-front-matter-的批量转换&#34;&gt;1. MD 文件 front matter 的批量转换&lt;/h2&gt;
 &lt;p&gt;参考：&lt;a href=&#34;https://gohugo.io/tools/migrations/#jekyll&#34;&gt;Migrate to Hugo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;用到的Python脚本没有那么容易顺利跑，硬着头皮看错误代码。&lt;/p&gt;
+&lt;p&gt;虽然不需要从头造轮子，但是用到的Python脚本也没有那么容易顺利跑，硬着头皮看各种莫名其妙错误代码。&lt;/p&gt;
 &lt;h2 id=&#34;2-markdown-中的-javascript-被忽略&#34;&gt;2. Markdown 中的 javascript 被忽略&lt;/h2&gt;
 &lt;p&gt;与Jekyll使用的 kramdwon 不同，Hugo 使用的 Markdown 解释器默认会对 HTML、javascript 会直接忽略。这导致我的 instafeed 页面以及文章里的 Google 地图无法显示。&lt;/p&gt;
 &lt;p&gt;Hugo 目前（0.69.2） 默认的 Markdown 解释器是&lt;a href=&#34;https://gohugo.io/getting-started/configuration-markup#goldmark&#34;&gt;Goldmark&lt;/a&gt;，之前版本（0.60之前？）默认使用的是 Blackfriday。&lt;/p&gt;
-&lt;p&gt;Hugo官方文档中也有这样的描述：&lt;/p&gt;
+&lt;p&gt;Hugo 提出 shortcodes 来解决，文档中有这样的描述：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown’s syntax.&lt;/p&gt;
 &lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
@@ -62,8 +62,8 @@
 &lt;li&gt;&lt;a href=&#34;https://zh4ui.net/post/2017-04-20-hugo-with-disqus/&#34;&gt;给Hugo添加disqus评论服务&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/comments/&#34;&gt;Hugo Doc - Comments&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;6-与-jekyll-保持一致的-permalinks-格式&#34;&gt;6. 与 Jekyll 保持一致的 Permalinks 格式&lt;/h2&gt;
-&lt;p&gt;文章迁移过来了，评论也得迁移过来。永久链接的格式一致性需要保持。这篇博客非常有帮助：&lt;/p&gt;
+&lt;h2 id=&#34;6-与之前-jekyll-的-permalinks-格式保持一致&#34;&gt;6. 与之前 Jekyll 的 Permalinks 格式保持一致&lt;/h2&gt;
+&lt;p&gt;文章迁移过来了，评论也得迁移过来。永久链接的格式保持一致是最便捷的办法。这篇博客非常有帮助：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://leay.net/2019/09/23/jekyll-hexo-hugo/&#34;&gt;jekyll-hexo-hugo 互相迁移时关于永久链接的问题&lt;/a&gt;&lt;/p&gt;
 - http://insideout.top/2020/05/06/migrate-to-hugo/ - 2014 - 2020 Chang</description>
         </item>

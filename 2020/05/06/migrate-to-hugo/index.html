@@ -177,8 +177,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 								<li>
-				 					<a href="#1-md%e6%96%87%e4%bb%b6%e5%a4%b4%e9%83%a8%e7%9a%84%e6%89%b9%e9%87%8f%e8%bd%ac%e6%8d%a2" v-on:click="closeDrawer" id="1-md文件头部的批量转换-nav">
-										 1. MD文件头部的批量转换
+				 					<a href="#1-md-%e6%96%87%e4%bb%b6-front-matter-%e7%9a%84%e6%89%b9%e9%87%8f%e8%bd%ac%e6%8d%a2" v-on:click="closeDrawer" id="1-md-文件-front-matter-的批量转换-nav">
+										 1. MD 文件 front matter 的批量转换
 									</a>
 								</li>
 						
@@ -292,8 +292,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 								<li>
-				 					<a href="#6-%e4%b8%8e-jekyll-%e4%bf%9d%e6%8c%81%e4%b8%80%e8%87%b4%e7%9a%84-permalinks-%e6%a0%bc%e5%bc%8f" v-on:click="closeDrawer" id="6-与-jekyll-保持一致的-permalinks-格式-nav">
-										 6. 与 Jekyll 保持一致的 Permalinks 格式
+				 					<a href="#6-%e4%b8%8e%e4%b9%8b%e5%89%8d-jekyll-%e7%9a%84-permalinks-%e6%a0%bc%e5%bc%8f%e4%bf%9d%e6%8c%81%e4%b8%80%e8%87%b4" v-on:click="closeDrawer" id="6-与之前-jekyll-的-permalinks-格式保持一致-nav">
+										 6. 与之前 Jekyll 的 Permalinks 格式保持一致
 									</a>
 								</li>
 						
@@ -405,8 +405,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 								<li>
-				 					<a href="#1-md%e6%96%87%e4%bb%b6%e5%a4%b4%e9%83%a8%e7%9a%84%e6%89%b9%e9%87%8f%e8%bd%ac%e6%8d%a2" v-on:click="closeDrawer" id="1-md文件头部的批量转换-nav">
-										 1. MD文件头部的批量转换
+				 					<a href="#1-md-%e6%96%87%e4%bb%b6-front-matter-%e7%9a%84%e6%89%b9%e9%87%8f%e8%bd%ac%e6%8d%a2" v-on:click="closeDrawer" id="1-md-文件-front-matter-的批量转换-nav">
+										 1. MD 文件 front matter 的批量转换
 									</a>
 								</li>
 						
@@ -520,8 +520,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 								<li>
-				 					<a href="#6-%e4%b8%8e-jekyll-%e4%bf%9d%e6%8c%81%e4%b8%80%e8%87%b4%e7%9a%84-permalinks-%e6%a0%bc%e5%bc%8f" v-on:click="closeDrawer" id="6-与-jekyll-保持一致的-permalinks-格式-nav">
-										 6. 与 Jekyll 保持一致的 Permalinks 格式
+				 					<a href="#6-%e4%b8%8e%e4%b9%8b%e5%89%8d-jekyll-%e7%9a%84-permalinks-%e6%a0%bc%e5%bc%8f%e4%bf%9d%e6%8c%81%e4%b8%80%e8%87%b4" v-on:click="closeDrawer" id="6-与之前-jekyll-的-permalinks-格式保持一致-nav">
+										 6. 与之前 Jekyll 的 Permalinks 格式保持一致
 									</a>
 								</li>
 						
@@ -610,13 +610,13 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 <div class="post-body">
                     <p>终于从 Jekyll 迁移到 Hugo 了。</p>
 <p>碰到了不少头疼的小问题，还好有 Google，但即使有 Google，还是走了很多弯路，回头看，还是得仔细读官方文档原文。以下是我碰到的麻烦以及帮我解决问题的链接：</p>
-<h2 id="1-md文件头部的批量转换">1. MD文件头部的批量转换</h2>
+<h2 id="1-md-文件-front-matter-的批量转换">1. MD 文件 front matter 的批量转换</h2>
 <p>参考：<a href="https://gohugo.io/tools/migrations/#jekyll">Migrate to Hugo</a></p>
-<p>用到的Python脚本没有那么容易顺利跑，硬着头皮看错误代码。</p>
+<p>虽然不需要从头造轮子，但是用到的Python脚本也没有那么容易顺利跑，硬着头皮看各种莫名其妙错误代码。</p>
 <h2 id="2-markdown-中的-javascript-被忽略">2. Markdown 中的 javascript 被忽略</h2>
 <p>与Jekyll使用的 kramdwon 不同，Hugo 使用的 Markdown 解释器默认会对 HTML、javascript 会直接忽略。这导致我的 instafeed 页面以及文章里的 Google 地图无法显示。</p>
 <p>Hugo 目前（0.69.2） 默认的 Markdown 解释器是<a href="https://gohugo.io/getting-started/configuration-markup#goldmark">Goldmark</a>，之前版本（0.60之前？）默认使用的是 Blackfriday。</p>
-<p>Hugo官方文档中也有这样的描述：</p>
+<p>Hugo 提出 shortcodes 来解决，文档中有这样的描述：</p>
 <blockquote>
 <p>Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <code>&lt;iframes&gt;</code>) to Markdown content. We think this contradicts the beautiful simplicity of Markdown’s syntax.</p>
 <p>Hugo created <strong>shortcodes</strong> to circumvent these limitations.</p>
@@ -652,13 +652,13 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 <li><a href="https://zh4ui.net/post/2017-04-20-hugo-with-disqus/">给Hugo添加disqus评论服务</a></li>
 <li><a href="https://gohugo.io/content-management/comments/">Hugo Doc - Comments</a></li>
 </ol>
-<h2 id="6-与-jekyll-保持一致的-permalinks-格式">6. 与 Jekyll 保持一致的 Permalinks 格式</h2>
-<p>文章迁移过来了，评论也得迁移过来。永久链接的格式一致性需要保持。这篇博客非常有帮助：</p>
+<h2 id="6-与之前-jekyll-的-permalinks-格式保持一致">6. 与之前 Jekyll 的 Permalinks 格式保持一致</h2>
+<p>文章迁移过来了，评论也得迁移过来。永久链接的格式保持一致是最便捷的办法。这篇博客非常有帮助：</p>
 <p><a href="https://leay.net/2019/09/23/jekyll-hexo-hugo/">jekyll-hexo-hugo 互相迁移时关于永久链接的问题</a></p>
 
                     
                     <HR width="100%" id="EOF">
-                    <p style="color:#777;">Last modified on 2020-05-07</p>
+                    <p style="color:#777;">Last modified on 2020-05-08</p>
                     
                 </div>
             </div>
