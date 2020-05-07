@@ -7,17 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>2014 - 2020 Chang</copyright>
-    <lastBuildDate>Wed, 06 May 2020 20:45:39 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://insideout.top/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>从 Jeykll 迁移到 Hugo</title>
-      <link>http://insideout.top/2020/05/%E4%BB%8E-jeykll-%E8%BF%81%E7%A7%BB%E5%88%B0-hugo/</link>
-      <pubDate>Wed, 06 May 2020 20:45:39 +0800</pubDate>
+      <link>http://insideout.top/2020/05/06/migrate-to-hugo/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2020/05/%E4%BB%8E-jeykll-%E8%BF%81%E7%A7%BB%E5%88%B0-hugo/</guid>
+      <guid>http://insideout.top/2020/05/06/migrate-to-hugo/</guid>
       <description>终于从 Jekyll 迁移到 Hugo 了。
 碰到了不少头疼的小问题，还好有 Google，但即使有 Google，还是走了很多弯路，回头看，还是得仔细读官方文档原文。以下是我碰到的麻烦以及帮我解决问题的链接：
 1. MD文件头部的批量转换 参考：Migrate to Hugo
@@ -30,20 +30,20 @@ Hugo官方文档中也有这样的描述：
     
     <item>
       <title>Two weeks in Berlin</title>
-      <link>http://insideout.top/2020/01/two-weeks-in-berlin/</link>
-      <pubDate>Sun, 19 Jan 2020 22:18:33 +0800</pubDate>
+      <link>http://insideout.top/2020/01/19/berlin/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2020/01/two-weeks-in-berlin/</guid>
+      <guid>http://insideout.top/2020/01/19/berlin/</guid>
       <description>查理检查点附近的柏林墙遗迹
  去年因工作出差去柏林待了两周，第一次踏上了另一个国家的土地。说起来也巧，正是在一年前的今天，老 Andreas 热情地带韦工和我从勃兰登堡门开始，在周边游览了一圈。现在也是时候补一补早该完成的游记了。</description>
     </item>
     
     <item>
       <title>From 2018 to 2019</title>
-      <link>http://insideout.top/2019/02/from-2018-to-2019/</link>
+      <link>http://insideout.top/2019/02/27/from-2018-to-2019/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2019/02/from-2018-to-2019/</guid>
+      <guid>http://insideout.top/2019/02/27/from-2018-to-2019/</guid>
       <description>过去的一年是我停止蓄发的一年。说来好笑，在前年看完《浪客行》后，特别想变成漫画里宫本武藏的发型，随后在知乎看了一遍又一遍关于男生蓄长发的回答，终于开始了漫漫蓄发长路。由于已是前年事，在此不详细说了，总而言之，我在去年的大年初三把长发剃了。
  五一节去昆明参加了陆熙的婚礼，然后与刘雄李玉娜夫妇一起领略了抚仙湖、元阳梯田的风光。然后又去了一趟深圳。那是我逃离上海把自己暂时抽离出论文重压的美好时光。
  过去的一年情绪低落了大半年。虽然现在的心境已大不同，但是18年前大半年的煎熬时光我仍依稀记得，我的日记里应该也有体现。心境的分野自然是在答辩前后，石头落地。之前再如何挣扎、如何难受，到那时也算是烟消云散了。现在回想起来那段漫长的时光仿似梦魇，再也不愿把自己置于那种境地了。
@@ -55,19 +55,19 @@ Hugo官方文档中也有这样的描述：
     
     <item>
       <title>.</title>
-      <link>http://insideout.top/2016/06/</link>
+      <link>http://insideout.top/2016/06/18/</link>
       <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2016/06/</guid>
+      <guid>http://insideout.top/2016/06/18/</guid>
       <description>.</description>
     </item>
     
     <item>
       <title>Instafeed.js</title>
-      <link>http://insideout.top/2015/11/instafeed.js/</link>
+      <link>http://insideout.top/2015/11/03/instafeed/</link>
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/11/instafeed.js/</guid>
+      <guid>http://insideout.top/2015/11/03/instafeed/</guid>
       <description>使用 Instafeed.js 可以方便地在自己的网页上展示 Instagram 的照片。
 相关链接：
  Instafeed Instafeed.js + Animate.css Instagramify your website — Medium INSTAGRAM FEED ONTO YOUR WEBSITE – DREAMWEAVER  </description>
@@ -75,10 +75,10 @@ Hugo官方文档中也有这样的描述：
     
     <item>
       <title>开启 Google Photos 的人脸识别分组功能</title>
-      <link>http://insideout.top/2015/11/%E5%BC%80%E5%90%AF-google-photos-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%88%86%E7%BB%84%E5%8A%9F%E8%83%BD/</link>
+      <link>http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/</link>
       <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/11/%E5%BC%80%E5%90%AF-google-photos-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%88%86%E7%BB%84%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/</guid>
       <description>吐槽： Google 的人脸识别技术我最开始是在 Picasa 上面领教到的。简直太强大了，爱死这个功能。虽然现在感觉 Picasa 基本被 Google 战略性抛弃了，大版本号停留在 3.9 已经快 4 年了，连它的官方博客自 2011 年 12 月 8 日发布 3.9 版本后都没有更新过了= =，就只剩屈指可数的几个人还在维护着，但是我依然觉得它是 PC 上最强大的照片管理软件。（Google 收购一个很赞的项目然后继续把它做到更好，比同类都好，然后再抛弃不再开发。好像这种例子真不少，Google，这种行为难道不是变相的作恶吗？？！！！说好的不作恶呢）
  Google Photos 只在美国提供人脸分组的功能。使用其他地区的 IP 地址打开 Google Photos 则根本看不到关于面部识别分组的选项。
 那么人不在美国但是还是想用这个功能呢？还是有办法。
@@ -90,10 +90,10 @@ Hugo官方文档中也有这样的描述：
     
     <item>
       <title>买了几个 .top 域名</title>
-      <link>http://insideout.top/2015/09/%E4%B9%B0%E4%BA%86%E5%87%A0%E4%B8%AA-.top-%E5%9F%9F%E5%90%8D/</link>
+      <link>http://insideout.top/2015/09/29/top-domain/</link>
       <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/09/%E4%B9%B0%E4%BA%86%E5%87%A0%E4%B8%AA-.top-%E5%9F%9F%E5%90%8D/</guid>
+      <guid>http://insideout.top/2015/09/29/top-domain/</guid>
       <description>昨天看到枢哥买了 kagami.top 域名。而且第一年只要6元，续费39元。域名商：西部数码
 果断心动了。
 至于要注册什么域名，想了好久，想得到的里面有这些还没被注册。
@@ -114,19 +114,19 @@ darkkate.com 到期后把 insideout.top 作为了博客的域名。其他几个�
     
     <item>
       <title>熙熙攘攘</title>
-      <link>http://insideout.top/2015/07/%E7%86%99%E7%86%99%E6%94%98%E6%94%98/</link>
+      <link>http://insideout.top/2015/07/31/crowds/</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/07/%E7%86%99%E7%86%99%E6%94%98%E6%94%98/</guid>
+      <guid>http://insideout.top/2015/07/31/crowds/</guid>
       <description>熙熙攘攘  2015-07-31 摄于上海虹桥火车站 by iPhone 6  </description>
     </item>
     
     <item>
       <title>环青海湖的记忆碎片</title>
-      <link>http://insideout.top/2015/06/%E7%8E%AF%E9%9D%92%E6%B5%B7%E6%B9%96%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87/</link>
+      <link>http://insideout.top/2015/06/28/qinghai-memories/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/06/%E7%8E%AF%E9%9D%92%E6%B5%B7%E6%B9%96%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87/</guid>
+      <guid>http://insideout.top/2015/06/28/qinghai-memories/</guid>
       <description>.blue { color: blue; }  前言 翻了一下手机里一年前的照片。才惊觉今天1是距我和刘雄到达西海镇一周年的日子。时间过得好快。环青海湖这段难忘的经历我是一定会有所记录的。（但是已经就要拖一整年了==）这几天忙于期末的报告与论文，这阵忙完我一定要把回忆写下来。
 写完上面的话之后，三年过去了。有一个成语叫“如鲠在喉”，能让一根鱼刺卡了4年，难受 &amp;gt;_&amp;lt;。
 本文将由三年前的我与现在（2018）的我共同完成，处于对三年前的我的尊重以及对时隔4年的记忆的不信任，这次写下的文字将用蓝色与之前的文字做一个区别2（从 D-Day 开始都是这次写的，所以不额外加蓝色区分）。若有与事实不符的地方，纯属脑补。
@@ -151,10 +151,10 @@ darkkate.com 到期后把 insideout.top 作为了博客的域名。其他几个�
     
     <item>
       <title>Trey!</title>
-      <link>http://insideout.top/2015/06/trey/</link>
+      <link>http://insideout.top/2015/06/12/trey/</link>
       <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/06/trey/</guid>
+      <guid>http://insideout.top/2015/06/12/trey/</guid>
       <description> @wardell30 stops on a dime for the trey! #NBAFinals #phantomcam
 nba（@NBA）发的视频 · 2015-06-11，21:45 PDT
     </description>
@@ -162,10 +162,10 @@ nba（@NBA）发的视频 · 2015-06-11，21:45 PDT
     
     <item>
       <title>14天到手，西集网的 QC20i 开箱</title>
-      <link>http://insideout.top/2015/06/14%E5%A4%A9%E5%88%B0%E6%89%8B%E8%A5%BF%E9%9B%86%E7%BD%91%E7%9A%84-qc20i-%E5%BC%80%E7%AE%B1/</link>
+      <link>http://insideout.top/2015/06/11/qc20i/</link>
       <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/06/14%E5%A4%A9%E5%88%B0%E6%89%8B%E8%A5%BF%E9%9B%86%E7%BD%91%E7%9A%84-qc20i-%E5%BC%80%E7%AE%B1/</guid>
+      <guid>http://insideout.top/2015/06/11/qc20i/</guid>
       <description>1. 剁手的起因 就是因为下面这篇优惠信息 ，没啥好说的。看了之后心里就长草啊！！！
 值友专享：BOSE 博士 降噪全明星
 为了确定一下降噪效果是不是真的像文字上说的那么神奇，当天下午我就跑到淮海中路的 iapm 的 Bose 体验店去了 。QC25和QC20i都试了，因为iapm里面挺安静的，店员还打开了店里的模拟噪音装置，**戴上它整个世界就安静了真的不是开玩笑啊！！！！**考虑到我已经有3个头戴的耳机了，所以最后决定入QC20i。
@@ -195,10 +195,10 @@ nba（@NBA）发的视频 · 2015-06-11，21:45 PDT
     
     <item>
       <title>Go Warriors</title>
-      <link>http://insideout.top/2015/06/go-warriors/</link>
+      <link>http://insideout.top/2015/06/10/go-warriors/</link>
       <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/06/go-warriors/</guid>
+      <guid>http://insideout.top/2015/06/10/go-warriors/</guid>
       <description> @wardell30&amp;#39;s 27 leads the way for @warriors in Game 3 of the #NBAFinals
 NBA（@nba）发的照片 · 2015-06-9，21:27 PDT
   </description>
@@ -206,19 +206,19 @@ NBA（@nba）发的照片 · 2015-06-9，21:27 PDT
     
     <item>
       <title>Spacewalk</title>
-      <link>http://insideout.top/2015/06/spacewalk/</link>
+      <link>http://insideout.top/2015/06/07/spacewalk/</link>
       <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/06/spacewalk/</guid>
+      <guid>http://insideout.top/2015/06/07/spacewalk/</guid>
       <description>In this Feb. 7, 1984 photograph taken by his fellow crewmembers aboard the Earth-orbiting Space Shuttle Challenger on the STS-41B mission, NASA astronaut Bruce McCandless II approaches his maximum distance from the vehicle. McCandless became the first astronaut to maneuver about in space untethered, during this first &amp;#34;field&amp;#34; tryout of a nitrogen-propelled, hand-controlled backpack device called the Manned Maneuvering Unit. For 50 years, NASA has been &amp;#34;suiting up&amp;#34; for spacewalking.</description>
     </item>
     
     <item>
       <title>我的豆瓣秀</title>
-      <link>http://insideout.top/2015/05/%E6%88%91%E7%9A%84%E8%B1%86%E7%93%A3%E7%A7%80/</link>
+      <link>http://insideout.top/2015/05/13/my-douban-show/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/05/%E6%88%91%E7%9A%84%E8%B1%86%E7%93%A3%E7%A7%80/</guid>
+      <guid>http://insideout.top/2015/05/13/my-douban-show/</guid>
       <description>我最近看过的  历史随机列表  其实只是突然想起来豆瓣提供了这么一个功能，想在自己的博客里测试一下，以后挂在 About 页面应该比较好。
 实际上就是在页面里放了一段 JavaScript 代码：
 我最近看过的 &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;http://www.douban.com/service/badge/DarkKate/?selection=latest&amp;amp;amp;picsize=medium&amp;amp;amp;hideself=on&amp;amp;amp;show=collection&amp;amp;amp;n=8&amp;amp;amp;hidelogo=on&amp;amp;amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;amp;amp;columns=4&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;  历史随机列表 &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;http://www.douban.com/service/badge/DarkKate/?selection=random&amp;amp;amp;picsize=medium&amp;amp;amp;hideself=on&amp;amp;amp;show=collection&amp;amp;amp;n=8&amp;amp;amp;hidelogo=on&amp;amp;amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;amp;amp;columns=4&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;  目前发现了一个很要命的问题：图片显示不全！
@@ -235,19 +235,19 @@ NBA（@nba）发的照片 · 2015-06-9，21:27 PDT
     
     <item>
       <title>SHUT UP AND TAKE MY MONEY</title>
-      <link>http://insideout.top/2014/10/shut-up-and-take-my-money/</link>
+      <link>http://insideout.top/2014/10/09/shut-up-and-take-my-money/</link>
       <pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2014/10/shut-up-and-take-my-money/</guid>
+      <guid>http://insideout.top/2014/10/09/shut-up-and-take-my-money/</guid>
       <description></description>
     </item>
     
     <item>
       <title>自行车卖掉了</title>
-      <link>http://insideout.top/2014/05/%E8%87%AA%E8%A1%8C%E8%BD%A6%E5%8D%96%E6%8E%89%E4%BA%86/</link>
+      <link>http://insideout.top/2014/05/25/my-lovely-bike/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2014/05/%E8%87%AA%E8%A1%8C%E8%BD%A6%E5%8D%96%E6%8E%89%E4%BA%86/</guid>
+      <guid>http://insideout.top/2014/05/25/my-lovely-bike/</guid>
       <description>从2011年11月13日到2014年5月24日。
 923天。
 我不是它第一任主人，也不是最后一任。不过我很确信，它是刚被我前一任车主购买之后就被偷走了——因为我把它从土门骑回来的时候它几乎是全新。而现在我出手的时候，龙头、车座下方都已经是锈迹斑斑了，两个气门芯上的塑料旋钮也不知什么时候掉落在了何处。
@@ -257,10 +257,10 @@ NBA（@nba）发的照片 · 2015-06-9，21:27 PDT
     
     <item>
       <title>No Zuo No Die How Time Fies!</title>
-      <link>http://insideout.top/2014/05/no-zuo-no-die-how-time-fies/</link>
+      <link>http://insideout.top/2014/05/21/no-zuo-no-die-how-time-fies/</link>
       <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2014/05/no-zuo-no-die-how-time-fies/</guid>
+      <guid>http://insideout.top/2014/05/21/no-zuo-no-die-how-time-fies/</guid>
       <description>又到了批判自己浪费时间的日常了。
 D-Day 事情是这样的。
 一周之前，貌似是一个慵懒的上午，我躺在床上，然后不知怎么脑中冒出了固态硬盘这个词。然后我立马起床看了一个关于笔记本电脑利用光驱位安装固态硬盘的帖子1，巧的是我的笔电也刚好是奶牛的 NV47H 系列！内心YY了一下 SSD 让年迈的电脑焕发新生的情景，那画面实在太美。
@@ -281,10 +281,10 @@ D+2 第三天，4K对齐是没什么问题的，装驱动也还好，流氓软�
     
     <item>
       <title>记第一次海淘</title>
-      <link>http://insideout.top/2014/05/%E8%AE%B0%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B5%B7%E6%B7%98/</link>
+      <link>http://insideout.top/2014/05/05/shopping-overseas/</link>
       <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2014/05/%E8%AE%B0%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B5%B7%E6%B7%98/</guid>
+      <guid>http://insideout.top/2014/05/05/shopping-overseas/</guid>
       <description>今天（5月6日）终于完成了第一次海淘。回想从对海淘一无所知到心存疑虑再到完成交易。学到的概念还是挺多的。感觉有必要记录下来，一来长时间之后如果我又忘了一些概念，可以重新看一遍这里而不用再一次 Google 或在各种充斥着水帖的论坛里找零碎的教程；二来也希望能对海淘一无所知的朋友有所帮助。
  什么是海淘？ 我一开始最困惑的就是「海淘」这个名词。作为一个网购就意味着淘宝、亚马逊、京东的人来说，我第一次听说海淘还以为是一个网站：淘宝网的分支业务或是另一个专门贩卖海外商品的一站式网购平台。后来才知道海淘是指一类行为：从海外网购。
 另，海淘最大的缺点应该就是漫长的运输时间，如果受不了将近一个月的等待，建议还是别海淘。
@@ -302,10 +302,10 @@ D+2 第三天，4K对齐是没什么问题的，装驱动也还好，流氓软�
     
     <item>
       <title>没有结束</title>
-      <link>http://insideout.top/2014/01/%E6%B2%A1%E6%9C%89%E7%BB%93%E6%9D%9F/</link>
+      <link>http://insideout.top/2014/01/11/ready/</link>
       <pubDate>Sat, 11 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2014/01/%E6%B2%A1%E6%9C%89%E7%BB%93%E6%9D%9F/</guid>
+      <guid>http://insideout.top/2014/01/11/ready/</guid>
       <description>直到回家之前，我还是有一种把这几个月的一些零碎的认识、想法整理一下的强烈的意愿。
 我珍视这几个月 考研前这几个月到底对我有多重要呢？现在我还无法给自己一个明确的答案，但其份量无疑是沉甸甸的。如果不是选择考研，我可能不会重新认识自己并做出了一定的积极的改变。
 我重新认识了高强和徐畅。确切的说，考研之前我只是知道他们叫「高强」、「徐畅」而已。
