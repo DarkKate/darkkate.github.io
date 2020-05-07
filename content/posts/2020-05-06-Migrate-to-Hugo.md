@@ -61,3 +61,17 @@ Hugo官方文档中也有这样的描述：
 ## 4. 页面显示不正确
 
 正确push到github仓库之后，打开username.github.io，却发现网页显示不正确。原因是配置文件里的baseURL我是按insideout.top设置的，所以在根目录下还需要一个CNAME文件，里面填上baseURL域名。问题解决。
+
+## 5. disqus 的配置
+
+Diary theme 默认的评论系统是gitalk。但事实上Hugo已经内置支持disqus：
+
+1. 把正确的disqusShortname放在正确的位置。（不应放在'[params]'之下）
+2. [给Hugo添加disqus评论服务](https://zh4ui.net/post/2017-04-20-hugo-with-disqus/)
+3. [Hugo Doc - Comments](https://gohugo.io/content-management/comments/)
+
+## 6. 与 Jekyll 保持一致的 Permalinks 格式
+
+文章迁移过来了，评论也得迁移过来。永久链接的格式一致性需要保持。这篇博客非常有帮助：
+
+[jekyll-hexo-hugo 互相迁移时关于永久链接的问题](https://leay.net/2019/09/23/jekyll-hexo-hugo/)
