@@ -14,10 +14,10 @@
     
     <item>
       <title>开启 Google Photos 的人脸识别分组功能</title>
-      <link>http://insideout.top/2015/11/%E5%BC%80%E5%90%AF-google-photos-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%88%86%E7%BB%84%E5%8A%9F%E8%83%BD/</link>
+      <link>http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/</link>
       <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/11/%E5%BC%80%E5%90%AF-google-photos-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%88%86%E7%BB%84%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/</guid>
       <description>吐槽： Google 的人脸识别技术我最开始是在 Picasa 上面领教到的。简直太强大了，爱死这个功能。虽然现在感觉 Picasa 基本被 Google 战略性抛弃了，大版本号停留在 3.9 已经快 4 年了，连它的官方博客自 2011 年 12 月 8 日发布 3.9 版本后都没有更新过了= =，就只剩屈指可数的几个人还在维护着，但是我依然觉得它是 PC 上最强大的照片管理软件。（Google 收购一个很赞的项目然后继续把它做到更好，比同类都好，然后再抛弃不再开发。好像这种例子真不少，Google，这种行为难道不是变相的作恶吗？？！！！说好的不作恶呢）
  Google Photos 只在美国提供人脸分组的功能。使用其他地区的 IP 地址打开 Google Photos 则根本看不到关于面部识别分组的选项。
 那么人不在美国但是还是想用这个功能呢？还是有办法。
@@ -29,10 +29,10 @@
     
     <item>
       <title>买了几个 .top 域名</title>
-      <link>http://insideout.top/2015/09/%E4%B9%B0%E4%BA%86%E5%87%A0%E4%B8%AA-.top-%E5%9F%9F%E5%90%8D/</link>
+      <link>http://insideout.top/2015/09/29/top-domain/</link>
       <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/09/%E4%B9%B0%E4%BA%86%E5%87%A0%E4%B8%AA-.top-%E5%9F%9F%E5%90%8D/</guid>
+      <guid>http://insideout.top/2015/09/29/top-domain/</guid>
       <description>昨天看到枢哥买了 kagami.top 域名。而且第一年只要6元，续费39元。域名商：西部数码
 果断心动了。
 至于要注册什么域名，想了好久，想得到的里面有这些还没被注册。
@@ -53,10 +53,10 @@ darkkate.com 到期后把 insideout.top 作为了博客的域名。其他几个�
     
     <item>
       <title>我的豆瓣秀</title>
-      <link>http://insideout.top/2015/05/%E6%88%91%E7%9A%84%E8%B1%86%E7%93%A3%E7%A7%80/</link>
+      <link>http://insideout.top/2015/05/13/my-douban-show/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2015/05/%E6%88%91%E7%9A%84%E8%B1%86%E7%93%A3%E7%A7%80/</guid>
+      <guid>http://insideout.top/2015/05/13/my-douban-show/</guid>
       <description>我最近看过的  历史随机列表  其实只是突然想起来豆瓣提供了这么一个功能，想在自己的博客里测试一下，以后挂在 About 页面应该比较好。
 实际上就是在页面里放了一段 JavaScript 代码：
 我最近看过的 &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;http://www.douban.com/service/badge/DarkKate/?selection=latest&amp;amp;amp;picsize=medium&amp;amp;amp;hideself=on&amp;amp;amp;show=collection&amp;amp;amp;n=8&amp;amp;amp;hidelogo=on&amp;amp;amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;amp;amp;columns=4&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;  历史随机列表 &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;http://www.douban.com/service/badge/DarkKate/?selection=random&amp;amp;amp;picsize=medium&amp;amp;amp;hideself=on&amp;amp;amp;show=collection&amp;amp;amp;n=8&amp;amp;amp;hidelogo=on&amp;amp;amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;amp;amp;columns=4&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;  目前发现了一个很要命的问题：图片显示不全！
@@ -73,10 +73,10 @@ darkkate.com 到期后把 insideout.top 作为了博客的域名。其他几个�
     
     <item>
       <title>No Zuo No Die How Time Fies!</title>
-      <link>http://insideout.top/2014/05/no-zuo-no-die-how-time-fies/</link>
+      <link>http://insideout.top/2014/05/21/no-zuo-no-die-how-time-fies/</link>
       <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://insideout.top/2014/05/no-zuo-no-die-how-time-fies/</guid>
+      <guid>http://insideout.top/2014/05/21/no-zuo-no-die-how-time-fies/</guid>
       <description>又到了批判自己浪费时间的日常了。
 D-Day 事情是这样的。
 一周之前，貌似是一个慵懒的上午，我躺在床上，然后不知怎么脑中冒出了固态硬盘这个词。然后我立马起床看了一个关于笔记本电脑利用光驱位安装固态硬盘的帖子1，巧的是我的笔电也刚好是奶牛的 NV47H 系列！内心YY了一下 SSD 让年迈的电脑焕发新生的情景，那画面实在太美。

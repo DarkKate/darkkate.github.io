@@ -66,7 +66,7 @@ Hugo官方文档中也有这样的描述：
 
 Diary theme 默认的评论系统是gitalk。但事实上Hugo已经内置支持disqus：
 
-1. 把正确的disqusShortname放在正确的位置。（不应放在'[params]'之下）
+1. 把正确的disqusShortname放在正确的位置。（不应放在`[params]`之下）
 2. [给Hugo添加disqus评论服务](https://zh4ui.net/post/2017-04-20-hugo-with-disqus/)
 3. [Hugo Doc - Comments](https://gohugo.io/content-management/comments/)
 
