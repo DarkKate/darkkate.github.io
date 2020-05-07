@@ -10,6 +10,8 @@ subtitle = ".top"
 enableGitalk = false
 favicon = "/favicon.ico"
 
+[frontmatter]
+date  = [":filename", ":default"]
 
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
