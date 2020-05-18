@@ -46,9 +46,9 @@
 &lt;p&gt;By default, Goldmark does not render raw HTMLs and potentially dangerous links. If you have lots of inline HTML and/or JavaScript, you may need to turn this on.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;所以实际上还有一个简单粗暴地解决我需求的方法：在&lt;code&gt;config.toml&lt;/code&gt;中令&lt;code&gt;unsafe = true&lt;/code&gt;，即：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;]
-    [&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;goldmark&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;renderer&lt;/span&gt;]
-      &lt;span style=&#34;color:#a6e22e&#34;&gt;unsafe&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[markup]
+    [markup.goldmark.renderer]
+      unsafe = &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;true&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;实测有效。&lt;/p&gt;
 &lt;h2 id=&#34;3-作为-github-pages-发布&#34;&gt;3. 作为 Github Pages 发布&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/p&gt;
