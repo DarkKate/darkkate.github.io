@@ -5,7 +5,7 @@
     <description>Recent content on insideout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>2014 - 2020, All Rights Reserved</copyright>
+    <copyright>2014 - 2022, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://insideout.top/index.xml" rel="self" type="application/rss+xml" />
@@ -52,7 +52,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;实测有效。&lt;/p&gt;
 &lt;h2 id=&#34;3-作为-github-pages-发布&#34;&gt;3. 作为 Github Pages 发布&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mogeko.me/2018/018/&#34;&gt;使用 Hugo + GitHub Pages 搭建个人博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mogeko.me/posts/zh-cn/018/&#34;&gt;使用 Hugo + GitHub Pages 搭建个人博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;4-页面显示不正确&#34;&gt;4. 页面显示不正确&lt;/h2&gt;
 &lt;p&gt;正确push到github仓库之后，打开username.github.io，却发现网页显示不正确。原因是配置文件里的baseURL我是按insideout.top设置的，所以在根目录下还需要一个CNAME文件，里面填上baseURL域名。问题解决。&lt;/p&gt;
 &lt;h2 id=&#34;5-disqus-的配置&#34;&gt;5. disqus 的配置&lt;/h2&gt;
@@ -65,7 +65,7 @@
 &lt;h2 id=&#34;6-与之前-jekyll-的-permalinks-格式保持一致&#34;&gt;6. 与之前 Jekyll 的 Permalinks 格式保持一致&lt;/h2&gt;
 &lt;p&gt;文章迁移过来了，评论也得迁移过来。永久链接的格式保持一致是最便捷的办法。这篇博客非常有帮助：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://leay.net/2019/09/23/jekyll-hexo-hugo/&#34;&gt;jekyll-hexo-hugo 互相迁移时关于永久链接的问题&lt;/a&gt;&lt;/p&gt;
-- http://insideout.top/2020/05/06/migrate-to-hugo/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2020/05/06/migrate-to-hugo/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -80,8 +80,24 @@
 &lt;blockquote&gt;
 &lt;p&gt;查理检查点附近的柏林墙遗迹&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;去年因工作出差去柏林待了两周，第一次踏上了另一个国家的土地。说起来也巧，正是在一年前的今天，老 Andreas 热情地带韦工和我从勃兰登堡门开始，在周边游览了一圈。现在也是时候补一补早该完成的游记了。&lt;/p&gt;
-- http://insideout.top/2020/01/19/two-weeks-in-berlin/ - 2014 - 2020, All Rights Reserved</description>
+&lt;p&gt;去年因工作出差去柏林待了两周，第一次踏上了另一个国家的土地。说起来也巧，正是在一年前的今天，Andreas Hufper热情地带我从勃兰登堡门开始，在周边游览了一圈。现在也是时候补一补早该完成的游记了。&lt;/p&gt;
+&lt;h2 id=&#34;小插曲&#34;&gt;小插曲&lt;/h2&gt;
+&lt;p&gt;原计划1月15日从首都机场飞慕尼黑再转机柏林，但是出发前夕接到慕尼黑机场罢工的消息，航班取消了。遂改签了1月16日直飞柏林的航班。&lt;/p&gt;
+&lt;h2 id=&#34;第一印象&#34;&gt;第一印象&lt;/h2&gt;
+&lt;p&gt;经过了10个小时的飞行，我终于从舷窗第一次看到了柏林，此时正值傍晚，我是北京时间16日下午2点左右起飞的，由于时差7个小时的缘故，此时柏林还是16日下午5点多。
+【傍晚的柏林电视塔】
+柏林泰格尔机场&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;给人的印象就是小，是真的小，很难想象这居然就是德国、首都、柏林的国际机场。下了摆渡车过了海关拿完行李再走几步路就出机场大门了。泰格尔机场离市区不远，到公司给我们订的酒店只有9公里。我们打了个的士，花了20欧元，后来我再也没打过出租车= =。&lt;/p&gt;
+&lt;p&gt;柏林的天黑得很早，&lt;/p&gt;
+&lt;hr&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;该机场已于2020年正式关闭 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+- http://insideout.top/2020/01/19/two-weeks-in-berlin/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -111,7 +127,7 @@
 &lt;li&gt;提高英语水平：词汇量、口语；&lt;/li&gt;
 &lt;li&gt;1次旅游，目的地暂定日本。&lt;/li&gt;
 &lt;/ul&gt;
-- http://insideout.top/2019/02/27/from-2018-to-2019/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2019/02/27/from-2018-to-2019/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -123,7 +139,7 @@
         
         <guid>http://insideout.top/2016/06/18/</guid>
         <description>insideout http://insideout.top/2016/06/18/ -&lt;p&gt;.&lt;/p&gt;
-- http://insideout.top/2016/06/18/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2016/06/18/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -142,7 +158,7 @@
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@camdenfullmer/instagramify-your-website-ba775b664114&#34;&gt;Instagramify your website — Medium&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://tutvid.com/webdesign/dreamweaver/instagram-feed-onto-website-dreamweaver/&#34;&gt;INSTAGRAM FEED ONTO YOUR WEBSITE – DREAMWEAVER&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-- http://insideout.top/2015/11/03/instafeed/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2015/11/03/instafeed/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -201,7 +217,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;p&gt;卸载app， 挂梯子， 手机设置里地区和语言都调成美国，安装app，在设置中开启人脸识别，再把语言和地区调回来。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;（实际上语言和地区没有影响）&lt;/p&gt;
-- http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -252,7 +268,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-- http://insideout.top/2015/09/29/top-domain/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2015/09/29/top-domain/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -270,7 +286,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;li&gt;摄于上海虹桥火车站&lt;/li&gt;
 &lt;li&gt;by iPhone 6&lt;/li&gt;
 &lt;/ul&gt;
-- http://insideout.top/2015/07/31/crowds/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2015/07/31/crowds/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -878,7 +894,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-- http://insideout.top/2015/06/28/qinghai-memories/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2015/06/28/qinghai-memories/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
@@ -893,7 +909,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;script async defer src=&#34;//platform.instagram.com/en_US/embeds.js&#34;&gt;&lt;/script&gt;
 &lt;hr&gt;
 &lt;div style=&#34;width: 100%; height: 0px; position: relative; padding-bottom: 55.924%;&#34;&gt;&lt;iframe src=&#34;https://streamable.com/e/mt6o?autoplay=1&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling=&#34;no&#34; style=&#34;width: 100%; height: 100%; position: absolute;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
-- http://insideout.top/2015/06/12/trey/ - 2014 - 2020, All Rights Reserved</description>
+- http://insideout.top/2015/06/12/trey/ - 2014 - 2022, All Rights Reserved</description>
         </item>
     
     
