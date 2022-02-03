@@ -1,5 +1,6 @@
 ---
 title: "instagram"
+comments: false
 ---
 
 <script type="text/javascript" src="/js/instafeed.js"></script>

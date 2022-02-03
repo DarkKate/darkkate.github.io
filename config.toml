@@ -1,7 +1,7 @@
 baseURL = "http://insideout.top/"
 languageCode = "zh"
 title = "insideout"
-copyright = "2014 - 2020 Chang"
+copyright = "2014 - 2020, All Rights Reserved"
 theme = "diary"
 googleAnalytics = "UA-51193598-1"
 disqusShortname = "insideout-top"
@@ -64,3 +64,13 @@ weight = 5
       hardWraps = false
       unsafe = true
       xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "manni"
+    tabWidth = 4

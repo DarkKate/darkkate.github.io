@@ -1,7 +1,7 @@
 ---
 title: "从 Jeykll 迁移到 Hugo"
 date: 2020-05-06
-Lastmod: 2020-05-07
+Lastmod: 2020-05-08
 categories: 折腾
 ---
 
@@ -11,10 +11,11 @@ categories: 折腾
 
 
 
-## 1. MD文件头部的批量转换
+## 1. MD 文件 front matter 的批量转换
+
 参考：[Migrate to Hugo](https://gohugo.io/tools/migrations/#jekyll)
 
-用到的Python脚本没有那么容易顺利跑，硬着头皮看错误代码。
+虽然不需要从头造轮子，但是用到的Python脚本也没有那么容易顺利跑，硬着头皮看各种莫名其妙错误代码。
 
 ## 2. Markdown 中的 javascript 被忽略
 
@@ -22,7 +23,8 @@ categories: 折腾
 
 Hugo 目前（0.69.2） 默认的 Markdown 解释器是[Goldmark](https://gohugo.io/getting-started/configuration-markup#goldmark)，之前版本（0.60之前？）默认使用的是 Blackfriday。
 
-Hugo官方文档中也有这样的描述：
+Hugo 提出 shortcodes 来解决，文档中有这样的描述：
+
 >Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video `<iframes>`) to Markdown content. We think this contradicts the beautiful simplicity of Markdown’s syntax.
 >
 >Hugo created **shortcodes** to circumvent these limitations.
@@ -40,6 +42,7 @@ Hugo官方文档中也有这样的描述：
 但是，总有但是。使用第三篇的中方法解决问题之后我又一次读了[Goldmark 相关的段落](https://gohugo.io/getting-started/configuration-markup#goldmark)。
 
 注意到 Goldmark 有一个 unsafe 项：
+
 >**unsafe**
 >
 >By default, Goldmark does not render raw HTMLs and potentially dangerous links. If you have lots of inline HTML and/or JavaScript, you may need to turn this on.
@@ -71,8 +74,8 @@ Diary theme 默认的评论系统是gitalk。但事实上Hugo已经内置支持d
 2. [给Hugo添加disqus评论服务](https://zh4ui.net/post/2017-04-20-hugo-with-disqus/)
 3. [Hugo Doc - Comments](https://gohugo.io/content-management/comments/)
 
-## 6. 与 Jekyll 保持一致的 Permalinks 格式
+## 6. 与之前 Jekyll 的 Permalinks 格式保持一致
 
-文章迁移过来了，评论也得迁移过来。永久链接的格式一致性需要保持。这篇博客非常有帮助：
+文章迁移过来了，评论也得迁移过来。永久链接的格式保持一致是最便捷的办法。这篇博客非常有帮助：
 
 [jekyll-hexo-hugo 互相迁移时关于永久链接的问题](https://leay.net/2019/09/23/jekyll-hexo-hugo/)

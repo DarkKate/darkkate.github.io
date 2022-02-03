@@ -28,7 +28,7 @@
                     <div class="post-meta">
                         {{ if .Params.date}}
                         <time itemprop="datePublished">
-                            {{ .PublishDate.Format "2006-01-02 15:04" }}
+                            {{ .PublishDate.Format "2006-01-02" }}
                         </time>
                         {{ end }}
 
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="post-body-wrapper">
                 <div class="post-body">
                     {{.Content}}
@@ -70,8 +70,8 @@
                     {{ end }}
                 </div>
             </div>
-            
-            
+
+
             <nav class="post-pagination">
 
                 {{if .Next}}
@@ -83,7 +83,7 @@
                     Next<br>No newer posts.
                 </a>
                 {{end}}
-                
+
                 {{if .Prev}}
                 <a class="older-posts" href="{{.Prev.Permalink}}">
                     Previous<br>{{.Prev.Title}}

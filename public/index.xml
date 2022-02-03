@@ -5,7 +5,7 @@
     <description>Recent content on insideout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>2014 - 2020 Chang</copyright>
+    <copyright>2014 - 2020, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://insideout.top/index.xml" rel="self" type="application/rss+xml" />
@@ -20,13 +20,13 @@
         <guid>http://insideout.top/2020/05/06/migrate-to-hugo/</guid>
         <description>insideout http://insideout.top/2020/05/06/migrate-to-hugo/ -&lt;p&gt;终于从 Jekyll 迁移到 Hugo 了。&lt;/p&gt;
 &lt;p&gt;碰到了不少头疼的小问题，还好有 Google，但即使有 Google，还是走了很多弯路，回头看，还是得仔细读官方文档原文。以下是我碰到的麻烦以及帮我解决问题的链接：&lt;/p&gt;
-&lt;h2 id=&#34;1-md文件头部的批量转换&#34;&gt;1. MD文件头部的批量转换&lt;/h2&gt;
+&lt;h2 id=&#34;1-md-文件-front-matter-的批量转换&#34;&gt;1. MD 文件 front matter 的批量转换&lt;/h2&gt;
 &lt;p&gt;参考：&lt;a href=&#34;https://gohugo.io/tools/migrations/#jekyll&#34;&gt;Migrate to Hugo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;用到的Python脚本没有那么容易顺利跑，硬着头皮看错误代码。&lt;/p&gt;
+&lt;p&gt;虽然不需要从头造轮子，但是用到的Python脚本也没有那么容易顺利跑，硬着头皮看各种莫名其妙错误代码。&lt;/p&gt;
 &lt;h2 id=&#34;2-markdown-中的-javascript-被忽略&#34;&gt;2. Markdown 中的 javascript 被忽略&lt;/h2&gt;
 &lt;p&gt;与Jekyll使用的 kramdwon 不同，Hugo 使用的 Markdown 解释器默认会对 HTML、javascript 会直接忽略。这导致我的 instafeed 页面以及文章里的 Google 地图无法显示。&lt;/p&gt;
 &lt;p&gt;Hugo 目前（0.69.2） 默认的 Markdown 解释器是&lt;a href=&#34;https://gohugo.io/getting-started/configuration-markup#goldmark&#34;&gt;Goldmark&lt;/a&gt;，之前版本（0.60之前？）默认使用的是 Blackfriday。&lt;/p&gt;
-&lt;p&gt;Hugo官方文档中也有这样的描述：&lt;/p&gt;
+&lt;p&gt;Hugo 提出 shortcodes 来解决，文档中有这样的描述：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown’s syntax.&lt;/p&gt;
 &lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
@@ -46,9 +46,9 @@
 &lt;p&gt;By default, Goldmark does not render raw HTMLs and potentially dangerous links. If you have lots of inline HTML and/or JavaScript, you may need to turn this on.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;所以实际上还有一个简单粗暴地解决我需求的方法：在&lt;code&gt;config.toml&lt;/code&gt;中令&lt;code&gt;unsafe = true&lt;/code&gt;，即：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;]
-    [&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;goldmark&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;renderer&lt;/span&gt;]
-      &lt;span style=&#34;color:#a6e22e&#34;&gt;unsafe&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[markup]
+    [markup.goldmark.renderer]
+      unsafe = &lt;span style=&#34;color:#069;font-weight:bold&#34;&gt;true&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;实测有效。&lt;/p&gt;
 &lt;h2 id=&#34;3-作为-github-pages-发布&#34;&gt;3. 作为 Github Pages 发布&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/p&gt;
@@ -62,10 +62,10 @@
 &lt;li&gt;&lt;a href=&#34;https://zh4ui.net/post/2017-04-20-hugo-with-disqus/&#34;&gt;给Hugo添加disqus评论服务&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/comments/&#34;&gt;Hugo Doc - Comments&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;6-与-jekyll-保持一致的-permalinks-格式&#34;&gt;6. 与 Jekyll 保持一致的 Permalinks 格式&lt;/h2&gt;
-&lt;p&gt;文章迁移过来了，评论也得迁移过来。永久链接的格式一致性需要保持。这篇博客非常有帮助：&lt;/p&gt;
+&lt;h2 id=&#34;6-与之前-jekyll-的-permalinks-格式保持一致&#34;&gt;6. 与之前 Jekyll 的 Permalinks 格式保持一致&lt;/h2&gt;
+&lt;p&gt;文章迁移过来了，评论也得迁移过来。永久链接的格式保持一致是最便捷的办法。这篇博客非常有帮助：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://leay.net/2019/09/23/jekyll-hexo-hugo/&#34;&gt;jekyll-hexo-hugo 互相迁移时关于永久链接的问题&lt;/a&gt;&lt;/p&gt;
-- http://insideout.top/2020/05/06/migrate-to-hugo/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2020/05/06/migrate-to-hugo/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -81,7 +81,7 @@
 &lt;p&gt;查理检查点附近的柏林墙遗迹&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;去年因工作出差去柏林待了两周，第一次踏上了另一个国家的土地。说起来也巧，正是在一年前的今天，老 Andreas 热情地带韦工和我从勃兰登堡门开始，在周边游览了一圈。现在也是时候补一补早该完成的游记了。&lt;/p&gt;
-- http://insideout.top/2020/01/19/two-weeks-in-berlin/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2020/01/19/two-weeks-in-berlin/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -111,7 +111,7 @@
 &lt;li&gt;提高英语水平：词汇量、口语；&lt;/li&gt;
 &lt;li&gt;1次旅游，目的地暂定日本。&lt;/li&gt;
 &lt;/ul&gt;
-- http://insideout.top/2019/02/27/from-2018-to-2019/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2019/02/27/from-2018-to-2019/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -123,7 +123,7 @@
         
         <guid>http://insideout.top/2016/06/18/</guid>
         <description>insideout http://insideout.top/2016/06/18/ -&lt;p&gt;.&lt;/p&gt;
-- http://insideout.top/2016/06/18/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2016/06/18/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -142,7 +142,7 @@
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@camdenfullmer/instagramify-your-website-ba775b664114&#34;&gt;Instagramify your website — Medium&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://tutvid.com/webdesign/dreamweaver/instagram-feed-onto-website-dreamweaver/&#34;&gt;INSTAGRAM FEED ONTO YOUR WEBSITE – DREAMWEAVER&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-- http://insideout.top/2015/11/03/instafeed/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2015/11/03/instafeed/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -201,7 +201,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;p&gt;卸载app， 挂梯子， 手机设置里地区和语言都调成美国，安装app，在设置中开启人脸识别，再把语言和地区调回来。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;（实际上语言和地区没有影响）&lt;/p&gt;
-- http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -252,7 +252,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-- http://insideout.top/2015/09/29/top-domain/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2015/09/29/top-domain/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -270,7 +270,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;li&gt;摄于上海虹桥火车站&lt;/li&gt;
 &lt;li&gt;by iPhone 6&lt;/li&gt;
 &lt;/ul&gt;
-- http://insideout.top/2015/07/31/crowds/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2015/07/31/crowds/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -878,7 +878,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-- http://insideout.top/2015/06/28/qinghai-memories/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2015/06/28/qinghai-memories/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     
@@ -893,7 +893,7 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;script async defer src=&#34;//platform.instagram.com/en_US/embeds.js&#34;&gt;&lt;/script&gt;
 &lt;hr&gt;
 &lt;div style=&#34;width: 100%; height: 0px; position: relative; padding-bottom: 55.924%;&#34;&gt;&lt;iframe src=&#34;https://streamable.com/e/mt6o?autoplay=1&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling=&#34;no&#34; style=&#34;width: 100%; height: 100%; position: absolute;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;
-- http://insideout.top/2015/06/12/trey/ - 2014 - 2020 Chang</description>
+- http://insideout.top/2015/06/12/trey/ - 2014 - 2020, All Rights Reserved</description>
         </item>
     
     

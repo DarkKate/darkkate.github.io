@@ -4,7 +4,7 @@ $light-accent: lighten($color-accent, 10%);
 $deep-light-accent: lighten($color-accent, 30%);
 $dark-mode-text: darken(#FFF, 20%);
 
-$dark-mode-back-container-background: #232323;
+$dark-mode-back-container-background: #212121;
 $dark-mode-front-container-background: #282828;
 
 body.night {
@@ -19,25 +19,36 @@ body.night {
   }
 
   blockquote {
-      * {
-          color: $deep-light-accent;
-      }
-  }
-
-  code {
-    color: $dark-mode-text;
+    * {
+        color: $deep-light-accent !important;
+    }
   }
 
   a {
-      color: $light-accent;
+    color: $light-accent;
+    &:hover {
+      color: $deep-light-accent !important;
+    }
+    @media screen and (max-width: $single-column-max-width) {
       &:hover {
-        color: $deep-light-accent !important;
+        text-decoration: none !important;
       }
-      @media screen and (max-width: $single-column-max-width) {
-        &:hover {
-          text-decoration: none !important;
-        }
-      }
+    }
+  }
+
+  code:not([data-lang]) {
+    color: $deep-light-accent !important;
+  }
+
+  pre {
+    code:not([data-lang]) {
+      background: none !important;
+      color: $dark-mode-text !important;
+    }
+  }
+
+  table * {
+    color: $dark-mode-text;
   }
 
   .side-container {
@@ -46,7 +57,9 @@ body.night {
     $nav-item-hover-color-darken: 30%;
     $nav-item-active-background-alpha: 0.03;
     $nav-item-active-color-darken: 20%;
-
+    * {
+      color: $dark-mode-text;
+    }
     .nav-head {
       //border-right: 4px solid $color-accent;
       &:hover {
@@ -85,6 +98,9 @@ body.night {
     }
   }
   .stream-container {
+    .post-head-wrapper-text-only *{
+      color: $dark-mode-text;
+    }
     .post{
       background: $dark-mode-front-container-background;
       @media screen and (max-width: $single-column-max-width) {
@@ -106,48 +122,53 @@ body.night {
       &,
     > * {
       .post-item-wrapper {
+        * {
+          color: $dark-mode-text;
+        }
         .post-item-info-wrapper{
           @media screen and (max-width: $single-column-max-width) {
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
             background: $dark-mode-front-container-background;
           }
         }
-          @media screen and (max-width: $single-column-max-width) {
-            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-            background: $dark-mode-front-container-background;
+
+        @media screen and (max-width: $single-column-max-width) {
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+          background: $dark-mode-front-container-background;
+        }
+        &:not(.post-item-wrapper-no-hover):hover {
+          background: rgba(255,255,255, 0.03);
+          * {
+            color: $deep-light-accent !important;
           }
-          &:not(.post-item-wrapper-no-hover):hover {
-            * {
-              color: $deep-light-accent;
-            }
-          }
+        }
         }
       }
     }
     
   }
-  * {
-    color: $dark-mode-text;
-  }
 
   .single-column-nav-container {
-      @media screen and (max-width: $single-column-max-width) {
-        .nav-dropdown-toggle {
-          &:hover {
-            color: #3f587d !important;
-          }
-        }
-        .navbar-brand {
-          color: $dark-mode-text;
-          &:hover {
-              color: $dark-mode-text;
-          }
-        }
-        .nav-background {
-          background: $dark-mode-front-container-background;
-          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    * { 
+      color: $dark-mode-text;
+    }
+    @media screen and (max-width: $single-column-max-width) {
+      .nav-dropdown-toggle {
+        &:hover {
+          color: #3f587d !important;
         }
       }
+      .navbar-brand {
+        color: $dark-mode-text;
+        &:hover {
+            color: $dark-mode-text;
+        }
+      }
+      .nav-background {
+        background: $dark-mode-front-container-background;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
   }
 
   .single-column-header-container {
@@ -186,8 +207,15 @@ body.night {
     }
   }
 
+  #single-column-footer {
+    color: $dark-mode-text;
+  }
+
   .toc{
     background-color: $dark-mode-front-container-background;
+    *{
+      color: $dark-mode-text;
+    }
     a {
       color: $dark-mode-text;
     }
@@ -195,8 +223,23 @@ body.night {
       color: $light-accent !important;
     }
   }
-  // Hack of Valine
-  .vsys{
-    background: none;
+
+  .post-body p,h1,h2,h3,h4,h5,h6,li {
+    color: $dark-mode-text;
+    *:not(a){
+      color: $dark-mode-text;
+    }
   }
+  .pagination * {
+    color: $dark-mode-text;
+  }
+
+  .vwrap * {
+    color: $dark-mode-text !important;
+  }
+
+  .vcontent p {
+    color: $dark-mode-text !important;
+  }
+
 }

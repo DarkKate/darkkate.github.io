@@ -6,7 +6,7 @@
     <description>Recent content in Posts on insideout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>2014 - 2020 Chang</copyright>
+    <copyright>2014 - 2020, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://insideout.top/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -20,12 +20,12 @@
       <guid>http://insideout.top/2020/05/06/migrate-to-hugo/</guid>
       <description>终于从 Jekyll 迁移到 Hugo 了。
 碰到了不少头疼的小问题，还好有 Google，但即使有 Google，还是走了很多弯路，回头看，还是得仔细读官方文档原文。以下是我碰到的麻烦以及帮我解决问题的链接：
-1. MD文件头部的批量转换 参考：Migrate to Hugo
-用到的Python脚本没有那么容易顺利跑，硬着头皮看错误代码。
+1. MD 文件 front matter 的批量转换 参考：Migrate to Hugo
+虽然不需要从头造轮子，但是用到的Python脚本也没有那么容易顺利跑，硬着头皮看各种莫名其妙错误代码。
 2. Markdown 中的 javascript 被忽略 与Jekyll使用的 kramdwon 不同，Hugo 使用的 Markdown 解释器默认会对 HTML、javascript 会直接忽略。这导致我的 instafeed 页面以及文章里的 Google 地图无法显示。
 Hugo 目前（0.69.2） 默认的 Markdown 解释器是Goldmark，之前版本（0.60之前？）默认使用的是 Blackfriday。
-Hugo官方文档中也有这样的描述：
- Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &amp;lt;iframes&amp;gt;) to Markdown content.</description>
+Hugo 提出 shortcodes 来解决，文档中有这样的描述：
+ Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.</description>
     </item>
     
     <item>

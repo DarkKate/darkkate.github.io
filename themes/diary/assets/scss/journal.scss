@@ -136,8 +136,9 @@ code {
 }
 
 pre {
-  background: rgba(46,46,46, 1) !important;
-  color: rgba(255,255,255, 1);
+  //background: rgba(46,46,46, 1) !important;
+  //color: rgba(255,255,255, 1);
+  background: rgba($color-accent, 0.07);
   padding: 12px 15px;
   border-radius: 5px;
   font-family: $mono-font-list;
@@ -249,7 +250,7 @@ a {
       opacity: 0;
       text-align: left;
       padding-left: 12px;
-      padding-top: 8px;
+      //padding-top: 8px;
       //justify-content: space-between;
       //align-items: stretch;
       flex: 1;
@@ -371,7 +372,7 @@ a {
             padding: 2px;
             li {
                 list-style: none;
-                padding-left: 8px;
+                padding-left: 8px; 
             }
             a {
               text-decoration: none;
@@ -473,7 +474,7 @@ a {
         font-size: $nav-link-size - 3px;
         li {
             list-style: none;
-            padding-left: 2px;
+            padding-left: 2px; 
         }
         a {
           text-decoration: none;
@@ -505,7 +506,7 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-
+  
   width: $extra-container-width;
   /*text-align: right;*/
   font-family: $sans-preferred-font-list;
@@ -589,7 +590,7 @@ a {
   padding-left: $side-container-width;
   padding-right: $extra-container-width;
   width: 100%;
-
+  
   min-height: 100vh;
   @media screen and (max-width: $single-column-max-width) {
     padding: 0;
@@ -944,7 +945,7 @@ a {
 
 
 
-
+  
 }
 
 #single-column-footer {
@@ -1077,4 +1078,12 @@ mjx-container
       display: none;
     }
   }
+}
+
+.vwrap * {
+  color: black !important;
+}
+
+.vcontent p {
+  color: black !important;
 }
