@@ -60,7 +60,7 @@ Hugo 提出 shortcodes 来解决，文档中有这样的描述：
 
 [Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
-[使用 Hugo + GitHub Pages 搭建个人博客](https://mogeko.me/2018/018/)
+[使用 Hugo + GitHub Pages 搭建个人博客](https://mogeko.me/posts/zh-cn/018/)
 
 ## 4. 页面显示不正确
 
