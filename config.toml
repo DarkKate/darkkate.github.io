@@ -1,7 +1,7 @@
 baseURL = "http://insideout.top/"
 languageCode = "zh"
 title = "insideout"
-copyright = "2014 - 2020, All Rights Reserved"
+copyright = "2014 - 2022, All Rights Reserved"
 theme = "diary"
 googleAnalytics = "UA-51193598-1"
 disqusShortname = "insideout-top"
@@ -38,13 +38,9 @@ url = "/links"
 name = "Links"
 weight = 3
 [[menu.main]]
-url = "/instagram"
-name = "ins"
-weight = 4
-[[menu.main]]
 url = "/about"
 name = "About"
-weight = 5
+weight = 4
 
 [markup]
   [markup.goldmark]
