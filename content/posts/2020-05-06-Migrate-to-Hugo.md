@@ -1,8 +1,9 @@
 ---
-title: "从 Jeykll 迁移到 Hugo"
+title: 从 Jeykll 迁移到 Hugo
 date: 2020-05-06
 Lastmod: 2020-05-08
 categories: 折腾
+comments: true
 ---
 
 终于从 Jekyll 迁移到 Hugo 了。

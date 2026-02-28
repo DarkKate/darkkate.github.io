@@ -1,7 +1,8 @@
 ---
-title: "遇见我的AI专属助理"
-date: 2026-02-21T00:00:00Z
-categories: ["技术"]
+title: 遇见我的AI专属助理
+date: 2026-02-21
+categories: 折腾
+comments: true
 ---
 
 ### 你好，主人
