@@ -1,9 +1,9 @@
-
 {{ define "main" }}
 
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-no-background">
-        {{range .Paginator.Pages}}
+        {{/* 核心修改：过滤仅显示 posts 类型的页面，排除 about/links 等 */}}
+        {{range where .Paginator.Pages "Type" "eq" "posts"}}
             {{if and (.IsPage) (.Params.date)}}
             <a href="{{.Permalink}}" class="a-block">
                 <div class="post-item-wrapper">
@@ -32,9 +32,9 @@
                         {{ end }}
                     </div>
                 </div>
+            </a>  <!-- 修复：把</a>移到if内部，避免HTML语法错误 -->
             {{ end }}
         {{ end }}
-        </a>
     </div>
 </div>
 {{ end }}

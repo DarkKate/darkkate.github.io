@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2020-05-07T01:09:14+08:00
-type: page
+type: "about"
 description: About Page
 ---
 
