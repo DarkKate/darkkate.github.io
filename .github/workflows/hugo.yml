@@ -2,36 +2,35 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # 触发分支改为源码分支 source（核心修正）
   push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ["source"]
+  # 保留手动触发
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# 权限配置（无需修改）
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# 并发控制（无需修改）
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Default to bash
+# 默认使用 bash
 defaults:
   run:
     shell: bash
 
 jobs:
-  # Build job
+  # 构建任务
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      # 改为你本地的 Hugo 版本（0.157.0，核心修正）
+      HUGO_VERSION: 0.157.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -39,36 +38,37 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Checkout
+      - name: Checkout 源码
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-      - name: Setup Pages
+          submodules: recursive  # 拉取主题子模块（diary 主题需要）
+      - name: Setup Pages（仅为了兼容，不使用其 base_url）
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
+      - name: 安装 Node.js 依赖（主题若有需要则保留，无则可删）
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build with Hugo
+      - name: 构建 Hugo 站点（核心修正：指定自定义域名的 HTTPS baseURL）
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
+            --gc \  # 清理缓存，避免旧资源残留
+            --baseURL "https://insideout.top/"  # 强制指定你的 HTTPS 自定义域名
+      - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Deployment job
+  # 部署任务
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build  # 依赖 build 任务完成
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
