@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/index.md",
+                "file": "themes/diary/README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about/index.md",
+                "file": "content/posts/2026-02-21-meet-my-ai-assistant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "2026-02-21-meet-my-ai-assistant 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about/index.md",
+                "file": "content/posts/2026-02-21-meet-my-ai-assistant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "2026-02-21-meet-my-ai-assistant 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about/index.md",
+                "file": "content/posts/2026-02-21-meet-my-ai-assistant.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "2026-02-21-meet-my-ai-assistant 的大纲"
             }
           },
           {
@@ -171,10 +171,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/about/index.md"
+                "file": "content/posts/2026-02-21-meet-my-ai-assistant.md"
               },
               "icon": "lucide-info",
-              "title": "index的笔记属性"
+              "title": "2026-02-21-meet-my-ai-assistant的笔记属性"
             }
           }
         ],
@@ -198,11 +198,18 @@
   },
   "active": "ed4b95cef2c70402",
   "lastOpenFiles": [
-    "content/links/index.md",
-    "content/about/index.md",
-    "themes/diary/README.md",
+    "未命名.canvas",
+    "未命名 2.base",
+    "未命名.base",
+    "未命名 1.base",
+    "public/CNAME.md",
+    "content/posts/2014-05-21-no-zuo-no-die-how-time-fies.md",
+    "content/posts/2014-05-05-shopping-overseas.md",
     "content/posts/2026-02-21-meet-my-ai-assistant.md",
     "content/posts/2020-05-06-Migrate-to-Hugo.md",
+    "content/about/index.md",
+    "content/links/index.md",
+    "themes/diary/README.md",
     "content/posts/2020-01-19-two-weeks-in-Berlin.md",
     "content/posts/2019-02-27-From-2018-to-2019.md",
     "content/posts/2015-11-03-instafeed.md",
@@ -216,8 +223,6 @@
     "content/posts/2015-05-13-my-douban-show.md",
     "content/posts/2014-10-09-shut-up-and-take-my-money.md",
     "content/posts/2014-05-25-my-lovely-bike.md",
-    "content/posts/2014-05-21-no-zuo-no-die-how-time-fies.md",
-    "content/posts/2014-05-05-shopping-overseas.md",
     "content/posts/2014-01-11-ready.md",
     "content/posts/2015-06-10-go-warriors.md",
     "themes/diary/static/vendor/js/vue.min.js",
@@ -227,9 +232,6 @@
     "themes/diary/static/vendor/js/md5.min.js",
     "themes/diary/static/vendor/js/loadCSS.js",
     "themes/diary/static/vendor/js/jquery.min.js",
-    "themes/diary/static/vendor/js/bootstrap.min.js.map",
-    "themes/diary/static/vendor/css/bootstrap.min.css",
-    "themes/diary/static/vendor/css/bootstrap.min.css.map",
     "themes/diary/static/images/Victor_Hugo-Hunchback.jpg",
     "themes/diary/static/images/Pope-Edouard-de-Beaumont-1844.jpg",
     "themes/diary/static/images/notebook.jpg",
@@ -241,8 +243,6 @@
     "themes/diary/images/m_drawer.png",
     "themes/diary/images/essay2.png",
     "themes/diary/exampleSite/content/posts/post-5.md",
-    "themes/diary/exampleSite/content/posts/post-1.md",
-    "themes/diary/exampleSite/content/posts/chinese.md",
-    "themes/diary/exampleSite/content/posts/chapter-6.md"
+    "themes/diary/exampleSite/content/posts/post-1.md"
   ]
 }
