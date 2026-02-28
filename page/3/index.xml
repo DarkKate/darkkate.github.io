@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>insideout</title>
-    <link>https://insideout.top/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on insideout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -10,18 +10,18 @@
     <copyright>2014 - 2026, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://insideout.top/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>没有结束</title>
-        <link>https://insideout.top/2014/01/11/ready/</link>
+        <link>http://localhost:1313/2014/01/11/ready/</link>
         <pubDate>Sat, 11 Jan 2014 00:00:00 +0000</pubDate>
         
         
-        <guid>https://insideout.top/2014/01/11/ready/</guid>
-        <description>insideout https://insideout.top/2014/01/11/ready/ -&lt;p&gt;直到回家之前，我还是有一种把这几个月的一些零碎的认识、想法整理一下的强烈的意愿。&lt;/p&gt;
+        <guid>http://localhost:1313/2014/01/11/ready/</guid>
+        <description>insideout http://localhost:1313/2014/01/11/ready/ -&lt;p&gt;直到回家之前，我还是有一种把这几个月的一些零碎的认识、想法整理一下的强烈的意愿。&lt;/p&gt;
 &lt;h3 id=&#34;我珍视这几个月&#34;&gt;我珍视这几个月&lt;/h3&gt;
 &lt;p&gt;考研前这几个月到底对我有多重要呢？现在我还无法给自己一个明确的答案，但其份量无疑是沉甸甸的。如果不是选择考研，我可能不会重新认识自己并做出了一定的积极的改变。&lt;/p&gt;
 &lt;p&gt;我重新认识了高强和徐畅。确切的说，考研之前我只是知道他们叫「高强」、「徐畅」而已。&lt;/p&gt;
@@ -82,7 +82,7 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;没有结束&#34;&gt;没有结束&lt;/h3&gt;
 &lt;p&gt;不管怎么说，过去都过去了。迎接未来的挑战，我在心态上已准备就绪。&lt;/p&gt;
-- https://insideout.top/2014/01/11/ready/ - 2014 - 2026, All Rights Reserved</description>
+- http://localhost:1313/2014/01/11/ready/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
