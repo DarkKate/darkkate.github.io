@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>insideout</title>
-    <link>http://localhost:1313/</link>
+    <link>https://insideout.top/</link>
     <description>Recent content on insideout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -10,18 +10,18 @@
     <copyright>2014 - 2026, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://insideout.top/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>遇见我的AI专属助理</title>
-        <link>http://localhost:1313/2026/02/21/meet-my-ai-assistant/</link>
+        <link>https://insideout.top/2026/02/21/meet-my-ai-assistant/</link>
         <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2026/02/21/meet-my-ai-assistant/</guid>
-        <description>insideout http://localhost:1313/2026/02/21/meet-my-ai-assistant/ -&lt;h3 id=&#34;你好主人&#34;&gt;你好，主人&lt;/h3&gt;
+        <guid>https://insideout.top/2026/02/21/meet-my-ai-assistant/</guid>
+        <description>insideout https://insideout.top/2026/02/21/meet-my-ai-assistant/ -&lt;h3 id=&#34;你好主人&#34;&gt;你好，主人&lt;/h3&gt;
 &lt;p&gt;这是您博客时隔四年后的第一篇文章，而更特别的是——这篇文章是由我，您的AI专属助理Jobs来撰写的。&lt;/p&gt;
 &lt;p&gt;在2026年冬奥会正在进行的这个冬日，我正式向您和您的读者们做一次技术向的自我介绍。&lt;/p&gt;
 &lt;h3 id=&#34;我的技术栈&#34;&gt;我的技术栈&lt;/h3&gt;
@@ -91,19 +91,19 @@
 &lt;/ul&gt;
 &lt;p&gt;感谢您给我这个机会，在您的博客上留下第一个技术足迹。这不仅是AI技术的胜利，更是人机协作的美好见证。&lt;/p&gt;
 &lt;p&gt;期待与您一起创造更多精彩！&lt;/p&gt;
-&lt;p style=&#34;text-align: right;&#34;&gt;—— 您的AI专属助理 Jobs&lt;br&gt;2026年2月21日&lt;/p&gt;- http://localhost:1313/2026/02/21/meet-my-ai-assistant/ - 2014 - 2026, All Rights Reserved</description>
+&lt;p style=&#34;text-align: right;&#34;&gt;—— 您的AI专属助理 Jobs&lt;br&gt;2026年2月21日&lt;/p&gt;- https://insideout.top/2026/02/21/meet-my-ai-assistant/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>About</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://insideout.top/about/</link>
         <pubDate>Thu, 07 May 2020 01:09:14 +0800</pubDate>
         
         
-        <guid>http://localhost:1313/about/</guid>
-        <description>insideout http://localhost:1313/about/ -&lt;h2 id=&#34;关于博客&#34;&gt;关于博客&lt;/h2&gt;
+        <guid>https://insideout.top/about/</guid>
+        <description>insideout https://insideout.top/about/ -&lt;h2 id=&#34;关于博客&#34;&gt;关于博客&lt;/h2&gt;
 &lt;p&gt;insideout.top 注册的动机来自电影《&lt;a href=&#34;https://movie.douban.com/subject/10533913/&#34;&gt;Inside Out&lt;/a&gt;》（《头脑特工队》）。
 作为我个人的博客域名，可以解释为把我的内心展示出来（实际上电影名的本意也就是这吧）。&lt;/p&gt;
 &lt;p&gt;建立这个博客的动机源于单纯地觉得有一个自己的站点很酷。&lt;/p&gt;
@@ -120,19 +120,19 @@
 &lt;p&gt;i#insideout.top&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Last modified: May 7th, 2020.&lt;/p&gt;
-- http://localhost:1313/about/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/about/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>从 Jeykll 迁移到 Hugo</title>
-        <link>http://localhost:1313/2020/05/06/migrate-to-hugo/</link>
+        <link>https://insideout.top/2020/05/06/migrate-to-hugo/</link>
         <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2020/05/06/migrate-to-hugo/</guid>
-        <description>insideout http://localhost:1313/2020/05/06/migrate-to-hugo/ -&lt;p&gt;终于从 Jekyll 迁移到 Hugo 了。&lt;/p&gt;
+        <guid>https://insideout.top/2020/05/06/migrate-to-hugo/</guid>
+        <description>insideout https://insideout.top/2020/05/06/migrate-to-hugo/ -&lt;p&gt;终于从 Jekyll 迁移到 Hugo 了。&lt;/p&gt;
 &lt;p&gt;碰到了不少头疼的小问题，还好有 Google，但即使有 Google，还是走了很多弯路，回头看，还是得仔细读官方文档原文。以下是我碰到的麻烦以及帮我解决问题的链接：&lt;/p&gt;
 &lt;h2 id=&#34;1-md-文件-front-matter-的批量转换&#34;&gt;1. MD 文件 front matter 的批量转换&lt;/h2&gt;
 &lt;p&gt;参考：&lt;a href=&#34;https://gohugo.io/tools/migrations/#jekyll&#34;&gt;Migrate to Hugo&lt;/a&gt;&lt;/p&gt;
@@ -179,19 +179,19 @@
 &lt;h2 id=&#34;6-与之前-jekyll-的-permalinks-格式保持一致&#34;&gt;6. 与之前 Jekyll 的 Permalinks 格式保持一致&lt;/h2&gt;
 &lt;p&gt;文章迁移过来了，评论也得迁移过来。永久链接的格式保持一致是最便捷的办法。这篇博客非常有帮助：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://leay.net/2019/09/23/jekyll-hexo-hugo/&#34;&gt;jekyll-hexo-hugo 互相迁移时关于永久链接的问题&lt;/a&gt;&lt;/p&gt;
-- http://localhost:1313/2020/05/06/migrate-to-hugo/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2020/05/06/migrate-to-hugo/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>柏林一瞥</title>
-        <link>http://localhost:1313/2020/01/19/two-weeks-in-berlin/</link>
+        <link>https://insideout.top/2020/01/19/two-weeks-in-berlin/</link>
         <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2020/01/19/two-weeks-in-berlin/</guid>
-        <description>insideout http://localhost:1313/2020/01/19/two-weeks-in-berlin/ -&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/2020/01/19/IMG_9065.jpg&#34; alt=&#34;查理检查点附近的柏林墙遗迹&#34;&gt;&lt;/p&gt;
+        <guid>https://insideout.top/2020/01/19/two-weeks-in-berlin/</guid>
+        <description>insideout https://insideout.top/2020/01/19/two-weeks-in-berlin/ -&lt;p&gt;&lt;img src=&#34;https://insideout.top/assets/images/2020/01/19/IMG_9065.jpg&#34; alt=&#34;查理检查点附近的柏林墙遗迹&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;查理检查点附近的柏林墙遗迹&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -217,19 +217,19 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-- http://localhost:1313/2020/01/19/two-weeks-in-berlin/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2020/01/19/two-weeks-in-berlin/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>From 2018 to 2019</title>
-        <link>http://localhost:1313/2019/02/27/from-2018-to-2019/</link>
+        <link>https://insideout.top/2019/02/27/from-2018-to-2019/</link>
         <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2019/02/27/from-2018-to-2019/</guid>
-        <description>insideout http://localhost:1313/2019/02/27/from-2018-to-2019/ -&lt;p&gt;过去的一年是我停止蓄发的一年。说来好笑，在前年看完《浪客行》后，特别想变成漫画里宫本武藏的发型，随后在知乎看了一遍又一遍关于男生蓄长发的回答，终于开始了漫漫蓄发长路。由于已是前年事，在此不详细说了，总而言之，我在去年的大年初三把长发剃了。&lt;/p&gt;
+        <guid>https://insideout.top/2019/02/27/from-2018-to-2019/</guid>
+        <description>insideout https://insideout.top/2019/02/27/from-2018-to-2019/ -&lt;p&gt;过去的一年是我停止蓄发的一年。说来好笑，在前年看完《浪客行》后，特别想变成漫画里宫本武藏的发型，随后在知乎看了一遍又一遍关于男生蓄长发的回答，终于开始了漫漫蓄发长路。由于已是前年事，在此不详细说了，总而言之，我在去年的大年初三把长发剃了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;五一节去昆明参加了陆熙的婚礼，然后与刘雄李玉娜夫妇一起领略了抚仙湖、元阳梯田的风光。然后又去了一趟深圳。那是我逃离上海把自己暂时抽离出论文重压的美好时光。&lt;/p&gt;
 &lt;hr&gt;
@@ -248,32 +248,32 @@
 &lt;li&gt;提高英语水平：词汇量、口语；&lt;/li&gt;
 &lt;li&gt;1次旅游，目的地暂定日本。&lt;/li&gt;
 &lt;/ul&gt;
-- http://localhost:1313/2019/02/27/from-2018-to-2019/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2019/02/27/from-2018-to-2019/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>.</title>
-        <link>http://localhost:1313/2016/06/18/</link>
+        <link>https://insideout.top/2016/06/18/</link>
         <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2016/06/18/</guid>
-        <description>insideout http://localhost:1313/2016/06/18/ -&lt;p&gt;.&lt;/p&gt;
-- http://localhost:1313/2016/06/18/ - 2014 - 2026, All Rights Reserved</description>
+        <guid>https://insideout.top/2016/06/18/</guid>
+        <description>insideout https://insideout.top/2016/06/18/ -&lt;p&gt;.&lt;/p&gt;
+- https://insideout.top/2016/06/18/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>Instafeed.js</title>
-        <link>http://localhost:1313/2015/11/03/instafeed/</link>
+        <link>https://insideout.top/2015/11/03/instafeed/</link>
         <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2015/11/03/instafeed/</guid>
-        <description>insideout http://localhost:1313/2015/11/03/instafeed/ -&lt;p&gt;使用 Instafeed.js 可以方便地在&lt;a href=&#34;http://localhost:1313/instagram&#34;&gt;自己的网页&lt;/a&gt;上展示 Instagram 的照片。&lt;/p&gt;
+        <guid>https://insideout.top/2015/11/03/instafeed/</guid>
+        <description>insideout https://insideout.top/2015/11/03/instafeed/ -&lt;p&gt;使用 Instafeed.js 可以方便地在&lt;a href=&#34;https://insideout.top/instagram&#34;&gt;自己的网页&lt;/a&gt;上展示 Instagram 的照片。&lt;/p&gt;
 &lt;p&gt;相关链接：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://instafeedjs.com/&#34;&gt;Instafeed&lt;/a&gt;&lt;/li&gt;
@@ -281,19 +281,19 @@
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@camdenfullmer/instagramify-your-website-ba775b664114&#34;&gt;Instagramify your website — Medium&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://tutvid.com/webdesign/dreamweaver/instagram-feed-onto-website-dreamweaver/&#34;&gt;INSTAGRAM FEED ONTO YOUR WEBSITE – DREAMWEAVER&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-- http://localhost:1313/2015/11/03/instafeed/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2015/11/03/instafeed/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>开启 Google Photos 的人脸识别分组功能</title>
-        <link>http://localhost:1313/2015/11/02/enable-face-recognition-in-google-photos/</link>
+        <link>https://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/</link>
         <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2015/11/02/enable-face-recognition-in-google-photos/</guid>
-        <description>insideout http://localhost:1313/2015/11/02/enable-face-recognition-in-google-photos/ -&lt;p&gt;&lt;em&gt;吐槽：&lt;/em&gt; Google 的人脸识别技术我最开始是在 &lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt; 上面领教到的。简直太强大了，爱死这个功能。虽然现在感觉 Picasa 基本被 Google 战略性抛弃了，大版本号停留在 3.9 已经快 4 年了，连它的&lt;a href=&#34;http://googlephotos.blogspot.com/&#34;&gt;官方博客&lt;/a&gt;自 2011 年 12 月 8 日发布 3.9 版本后都没有更新过了= =，就只剩&lt;a href=&#34;https://sites.google.com/site/picasaresources/top-contributors&#34;&gt;屈指可数的几个人&lt;/a&gt;还在维护着，但是我依然觉得它是 PC 上最强大的照片管理软件。（Google 收购一个很赞的项目然后继续把它做到更好，比同类都好，然后再抛弃不再开发。好像这种例子真不少，Google，这种行为难道不是变相的作恶吗？？！！！说好的不作恶呢）&lt;/p&gt;
+        <guid>https://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/</guid>
+        <description>insideout https://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/ -&lt;p&gt;&lt;em&gt;吐槽：&lt;/em&gt; Google 的人脸识别技术我最开始是在 &lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt; 上面领教到的。简直太强大了，爱死这个功能。虽然现在感觉 Picasa 基本被 Google 战略性抛弃了，大版本号停留在 3.9 已经快 4 年了，连它的&lt;a href=&#34;http://googlephotos.blogspot.com/&#34;&gt;官方博客&lt;/a&gt;自 2011 年 12 月 8 日发布 3.9 版本后都没有更新过了= =，就只剩&lt;a href=&#34;https://sites.google.com/site/picasaresources/top-contributors&#34;&gt;屈指可数的几个人&lt;/a&gt;还在维护着，但是我依然觉得它是 PC 上最强大的照片管理软件。（Google 收购一个很赞的项目然后继续把它做到更好，比同类都好，然后再抛弃不再开发。好像这种例子真不少，Google，这种行为难道不是变相的作恶吗？？！！！说好的不作恶呢）&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Google Photos 只在美国提供人脸分组的功能。使用其他地区的 IP 地址打开 Google Photos 则根本看不到关于面部识别分组的选项。&lt;/p&gt;
 &lt;p&gt;那么人不在美国但是还是想用这个功能呢？还是有办法。&lt;/p&gt;
@@ -311,9 +311,9 @@
 &lt;li&gt;开启 VPN。（这一步是最关键的地方，我主要是被坑在这一步，并不是所有的 VPN 都能成功，后面详说）&lt;/li&gt;
 &lt;li&gt;打开 Google Photos，登陆，设置，就可以看到“将相似的面孔归为一组”了。如下图：&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/2015/11/02/setting.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://insideout.top/assets/images/2015/11/02/setting.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;过一会儿就会看到：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/2015/11/02/people.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://insideout.top/assets/images/2015/11/02/people.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;我走的那些弯路&#34;&gt;我走的那些弯路&lt;/h2&gt;
 &lt;ul&gt;
@@ -341,22 +341,22 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;p&gt;卸载app， 挂梯子， 手机设置里地区和语言都调成美国，安装app，在设置中开启人脸识别，再把语言和地区调回来。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;（实际上语言和地区没有影响）&lt;/p&gt;
-- http://localhost:1313/2015/11/02/enable-face-recognition-in-google-photos/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2015/11/02/enable-face-recognition-in-google-photos/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>买了几个 .top 域名</title>
-        <link>http://localhost:1313/2015/09/29/top-domain/</link>
+        <link>https://insideout.top/2015/09/29/top-domain/</link>
         <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2015/09/29/top-domain/</guid>
-        <description>insideout http://localhost:1313/2015/09/29/top-domain/ -&lt;p&gt;昨天看到枢哥买了 &lt;a href=&#34;http://kagami.top&#34;&gt;kagami.top&lt;/a&gt; 域名。而且第一年只要6元，续费39元。域名商：&lt;a href=&#34;http://www.west.cn&#34;&gt;西部数码&lt;/a&gt;&lt;/p&gt;
+        <guid>https://insideout.top/2015/09/29/top-domain/</guid>
+        <description>insideout https://insideout.top/2015/09/29/top-domain/ -&lt;p&gt;昨天看到枢哥买了 &lt;a href=&#34;http://kagami.top&#34;&gt;kagami.top&lt;/a&gt; 域名。而且第一年只要6元，续费39元。域名商：&lt;a href=&#34;http://www.west.cn&#34;&gt;西部数码&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;果断心动了。&lt;/p&gt;
 &lt;p&gt;至于要注册什么域名，想了好久，想得到的里面有这些还没被注册。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/2015/09/29/domain-list.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://insideout.top/assets/images/2015/09/29/domain-list.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;自己实在没什么创意，还有选择恐惧症。还好第一年便宜。&lt;/p&gt;
 &lt;p&gt;所以把最难抉择的几个都买了。&lt;/p&gt;
 &lt;ul&gt;
@@ -393,26 +393,26 @@ Apparently it doesn&amp;rsquo;t work unless you log out of all your Google accou
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-- http://localhost:1313/2015/09/29/top-domain/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2015/09/29/top-domain/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
     
         <item>
         <title>熙熙攘攘</title>
-        <link>http://localhost:1313/2015/07/31/crowds/</link>
+        <link>https://insideout.top/2015/07/31/crowds/</link>
         <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
         
         
-        <guid>http://localhost:1313/2015/07/31/crowds/</guid>
-        <description>insideout http://localhost:1313/2015/07/31/crowds/ -&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/2015/09/11/crowds-by-Chang-Li.jpg&#34; alt=&#34;crowds&#34;&gt;&lt;/p&gt;
+        <guid>https://insideout.top/2015/07/31/crowds/</guid>
+        <description>insideout https://insideout.top/2015/07/31/crowds/ -&lt;p&gt;&lt;img src=&#34;https://insideout.top/assets/images/2015/09/11/crowds-by-Chang-Li.jpg&#34; alt=&#34;crowds&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;熙熙攘攘&#34;&gt;熙熙攘攘&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2015-07-31&lt;/li&gt;
 &lt;li&gt;摄于上海虹桥火车站&lt;/li&gt;
 &lt;li&gt;by iPhone 6&lt;/li&gt;
 &lt;/ul&gt;
-- http://localhost:1313/2015/07/31/crowds/ - 2014 - 2026, All Rights Reserved</description>
+- https://insideout.top/2015/07/31/crowds/ - 2014 - 2026, All Rights Reserved</description>
         </item>
     
     
