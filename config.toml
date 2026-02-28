@@ -1,10 +1,20 @@
 baseURL = "http://insideout.top/"
-languageCode = "zh-cn"
+languageCode = "zh"
 title = "insideout"
 copyright = "2014 - 2026, All Rights Reserved"
 theme = "diary"
 googleAnalytics = "UA-51193598-1"
 disqusShortname = "insideout-top"
+# 确保分页大小是正整数（比如10），这是翻页功能的基础
+paginate = 10
+# 可选：指定博客文章的主分区（确保首页/列表页能正确获取文章）
+mainSections = ["posts"]
+# 补充作者配置，解决RSS模板报错
+
+[Author]
+  name = "insideout"
+  email = "i@insideout.top"  
+
 [params]
 subtitle = ".top"
 enableGitalk = false
