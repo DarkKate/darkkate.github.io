@@ -1,8 +1,13 @@
-{{ if .Paginator }}
-{{ if gt .Paginator.TotalPages 1 }}
+{{/* 终极修复：1. 仅列表页/分类页启用；2. 先判断分页配置是否有效 */}}
+{{/* 支持的列表页类型：list（普通列表）、taxonomy（分类/标签页）、term（分类项/标签项页） */}}
+{{ $supportedKinds := slice "list" "taxonomy" "term" }}
+{{ if and (in $supportedKinds .Kind) (.Site.Params.paginate | default 10) }}
+  {{/* 手动初始化分页器，避免pager size报错 */}}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) (.Site.Params.paginate | default 10) }}
+  {{ if gt $paginator.TotalPages 1 }}
 <div class="pagination">
-    {{ if .Paginator.HasPrev }}
-    <a class="pagination-action" href="{{.Paginator.Prev.URL}}" style="opacity:1">
+    {{ if $paginator.HasPrev }}
+    <a class="pagination-action" href="{{$paginator.Prev.URL}}" style="opacity:1">
     {{ else }}
     <a class="pagination-action" style="opacity:0">
     {{ end }}
@@ -12,11 +17,11 @@
     </a>
 
         <div class="pagination-indicator">
-            <span>{{.Paginator.PageNumber}}/{{.Paginator.TotalPages}}</span>
+            <span>{{$paginator.PageNumber}}/{{$paginator.TotalPages}}</span>
         </div>
 
-        {{ if .Paginator.HasNext }}
-        <a class="pagination-action" href="{{.Paginator.Next.URL}}"
+        {{ if $paginator.HasNext }}
+        <a class="pagination-action" href="{{$paginator.Next.URL}}"
            style="opacity:1">
         {{ else }}
             <a class="pagination-action" style="opacity:0">
@@ -26,6 +31,5 @@
                 </i>
             </a>
 </div>
-{{ end }}
-
+  {{ end }}
 {{ end }}

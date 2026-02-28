@@ -24,30 +24,35 @@
             </i>
         </a>
         {{ end }}
-        {{ if .Paginator }}
-        {{ if gt .Paginator.TotalPages 1 }}
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    {{.Paginator.PageNumber}}<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>{{.Paginator.TotalPages}}
-                </span>
-            </div>
-            
-            {{ if .Paginator.HasPrev }}
-            <a class="pagination-action" href="{{.Paginator.Prev.URL}}">
-                <i class="material-icons pagination-action-icon">
-                    chevron_left
-                </i>
-            </a>
-            {{ end }}
+     
+        {{/* 核心修复：加入section类型（适配/posts/文章列表页） */}}
+        {{/* 支持的分页页面类型：首页(home)、章节页(section，如/posts/)、普通列表(list)、分类(taxonomy)、分类项(term) */}}
+        {{ $supportedKinds := slice "home" "section" "list" "taxonomy" "term" }}
+        {{ if in $supportedKinds .Kind }}
+            {{/* 确保分页器存在且总页数>1才显示 */}}
+            {{ if and .Paginator (gt .Paginator.TotalPages 1) }}
+                <div class="pagination-indicator">
+                    <span style="text-align: center">
+                        {{.Paginator.PageNumber}}<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>{{.Paginator.TotalPages}}
+                    </span>
+                </div>
+                
+                {{ if .Paginator.HasPrev }}
+                <a class="pagination-action" href="{{.Paginator.Prev.URL}}">
+                    <i class="material-icons pagination-action-icon">
+                        chevron_left
+                    </i>
+                </a>
+                {{ end }}
 
-            {{ if .Paginator.HasNext }}
-            <a class="pagination-action" href="{{.Paginator.Next.URL}}">
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
+                {{ if .Paginator.HasNext }}
+                <a class="pagination-action" href="{{.Paginator.Next.URL}}">
+                    <i class="material-icons pagination-action-icon">
+                        chevron_right
+                    </i>
+                </a>
+                {{ end }}
             {{ end }}
-        {{ end }}
         {{ end }}
     </div>
 </div>

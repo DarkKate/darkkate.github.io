@@ -1,2 +1,8 @@
-public
+# 忽略 Hugo 编译生成的静态文件目录（核心）
 public/
+# 可选：忽略 Hugo 临时缓存文件（避免多余追踪）
+resources/
+.hugo_build.lock
+# 可选：忽略编辑器临时文件（比如 VS Code）
+.vscode/
+*.tmp
