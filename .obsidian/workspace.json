@@ -11,10 +11,14 @@
             "id": "ed4b95cef2c70402",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/about/index.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "index"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/about/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/about/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/about/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -163,9 +170,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "content/about/index.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "index的笔记属性"
             }
           }
         ],
@@ -189,22 +198,38 @@
   },
   "active": "ed4b95cef2c70402",
   "lastOpenFiles": [
-    "themes/diary/exampleSite/resources/_gen/assets/scss/scss/journal.scss_48b060fe05b0a273d182ef83c0605941.json",
-    "themes/diary/exampleSite/resources/_gen/assets/scss/scss/journal.scss_48b060fe05b0a273d182ef83c0605941.content",
-    "themes/diary/exampleSite/resources/_gen/assets/scss/scss/dark-mode.scss_48b060fe05b0a273d182ef83c0605941.json",
-    "themes/diary/exampleSite/resources/_gen/assets/scss/scss/dark-mode.scss_48b060fe05b0a273d182ef83c0605941.content",
-    "themes/diary/resources/_gen/assets/scss/scss/journal.scss_48b060fe05b0a273d182ef83c0605941.json",
-    "themes/diary/resources/_gen/assets/scss/scss/journal.scss_48b060fe05b0a273d182ef83c0605941.content",
-    "themes/diary/resources/_gen/assets/scss/scss/dark-mode.scss_48b060fe05b0a273d182ef83c0605941.json",
-    "themes/diary/resources/_gen/assets/scss/scss/dark-mode.scss_48b060fe05b0a273d182ef83c0605941.content",
-    "themes/diary/exampleSite/resources/_gen/assets/scss/scss",
-    "themes/diary/resources/_gen/assets/scss/scss",
-    "themes/diary/exampleSite/resources/_gen/assets/scss",
-    "themes/diary/exampleSite/content/posts/post-5.md",
-    "themes/diary/exampleSite/content/posts/post-1.md",
-    "themes/diary/exampleSite/content/posts/chinese.md",
-    "themes/diary/exampleSite/content/posts/chapter-6.md",
-    "themes/diary/exampleSite/content/posts/chapter-1.md",
+    "content/links/index.md",
+    "content/about/index.md",
+    "themes/diary/README.md",
+    "content/posts/2026-02-21-meet-my-ai-assistant.md",
+    "content/posts/2020-05-06-Migrate-to-Hugo.md",
+    "content/posts/2020-01-19-two-weeks-in-Berlin.md",
+    "content/posts/2019-02-27-From-2018-to-2019.md",
+    "content/posts/2015-11-03-instafeed.md",
+    "content/posts/2015-09-29-top-domain.md",
+    "content/posts/2015-09-11-about-my-headphones.md",
+    "content/posts/2015-07-31-crowds.md",
+    "content/posts/2015-06-28-qinghai-memories.md",
+    "content/posts/2015-06-12-trey.md",
+    "content/posts/2015-06-11-qc20i.md",
+    "content/posts/2015-06-07-spacewalk.md",
+    "content/posts/2015-05-13-my-douban-show.md",
+    "content/posts/2014-10-09-shut-up-and-take-my-money.md",
+    "content/posts/2014-05-25-my-lovely-bike.md",
+    "content/posts/2014-05-21-no-zuo-no-die-how-time-fies.md",
+    "content/posts/2014-05-05-shopping-overseas.md",
+    "content/posts/2014-01-11-ready.md",
+    "content/posts/2015-06-10-go-warriors.md",
+    "themes/diary/static/vendor/js/vue.min.js",
+    "themes/diary/static/vendor/js/smooth-scroll.polyfills.min.js",
+    "themes/diary/static/vendor/js/popper.min.js.map",
+    "themes/diary/static/vendor/js/popper.min.js",
+    "themes/diary/static/vendor/js/md5.min.js",
+    "themes/diary/static/vendor/js/loadCSS.js",
+    "themes/diary/static/vendor/js/jquery.min.js",
+    "themes/diary/static/vendor/js/bootstrap.min.js.map",
+    "themes/diary/static/vendor/css/bootstrap.min.css",
+    "themes/diary/static/vendor/css/bootstrap.min.css.map",
     "themes/diary/static/images/Victor_Hugo-Hunchback.jpg",
     "themes/diary/static/images/Pope-Edouard-de-Beaumont-1844.jpg",
     "themes/diary/static/images/notebook.jpg",
@@ -214,26 +239,10 @@
     "themes/diary/images/screenshot.png",
     "themes/diary/images/m_main.png",
     "themes/diary/images/m_drawer.png",
-    "themes/diary/images/main.png",
-    "themes/diary/archetypes/default.md",
-    "themes/diary/README.md",
-    "themes/hugo-theme-diary-main/exampleSite/content/posts/post-5.md",
-    "themes/hugo-theme-diary-main/exampleSite/content/posts/post-1.md",
-    "themes/hugo-theme-diary-main/exampleSite/content/posts/chinese.md",
-    "themes/hugo-theme-diary-main/exampleSite/content/posts/chapter-6.md",
-    "themes/hugo-theme-diary-main/exampleSite/content/posts/chapter-1.md",
-    "themes/hugo-theme-diary-main/archetypes/default.md",
-    "themes/hugo-theme-diary-main/README.md",
-    "content/posts/2015-09-29-top-domain.md",
-    "content/posts/2015-06-11-qc20i.md",
-    "content/posts/2015-06-28-qinghai-memories.md",
-    "content/posts/2015-07-31-crowds.md",
-    "content/posts/2015-09-11-about-my-headphones.md",
-    "content/posts/2015-11-02-Enable-face-recognition-in-Google-Photos.md",
-    "content/posts/2015-05-13-my-douban-show.md",
-    "content/posts/2015-06-07-spacewalk.md",
-    "content/posts/2015-06-10-go-warriors.md",
-    "content/posts/2015-06-12-trey.md",
-    "content/posts/2015-11-03-instafeed.md"
+    "themes/diary/images/essay2.png",
+    "themes/diary/exampleSite/content/posts/post-5.md",
+    "themes/diary/exampleSite/content/posts/post-1.md",
+    "themes/diary/exampleSite/content/posts/chinese.md",
+    "themes/diary/exampleSite/content/posts/chapter-6.md"
   ]
 }

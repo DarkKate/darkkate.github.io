@@ -1,54 +1,48 @@
-# <div align="center">Hugo Theme Diary</div>
-
-<div align="center">
-
+# hugo-theme-diary
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
-![](https://img.shields.io/badge/version-1.3.0-brightgreen)
-
-[My Blog with ✨Theme Diary✨](https://risehere.net/) -
-[Intro Video](https://www.bilibili.com/video/av84273002) -
-[Progress](https://github.com/AmazingRise/hugo-theme-diary/projects/) -
-[Wiki](https://github.com/amazingrise/hugo-theme-diary/wiki)
 
 隻言片語・於此匯聚
 
 Moments piled up.
 
-</div>
-
 A Hugo theme ported from [SumiMakito/hexo-theme-Journal](https://github.com/SumiMakito/hexo-theme-Journal/).
+
+## Links
+
+**Some useful links here:**
+
+[Live Demo](https://amazingrise.net/)
+
+[Intro Video](https://www.bilibili.com/video/av84273002)
+
+[Changelog (Progress and TODO List)](https://github.com/AmazingRise/hugo-theme-diary/projects/)
+
+[Project Wiki](https://github.com/amazingrise/hugo-theme-diary/wiki)
+
+Original Author: [SumiMakito](https://github.com/SumiMakito)
+
 
 ## Features
 
-### Features of this theme
+Features in the ori.:
 
-- Customizable: Easy to customize with detailed project wiki.
-- Adaptive: Mobile-friendly & widescreen-friendly.
-- Abundant: 3rd. service intergration (Gitalk, LiveRe, Disqus, Waline, Twikoo, Google Search, Analytics... ).
-- Convenient: Table of Contents with scroll spy.
-- Professional: LaTeX support (disabled by default).
-- Graceful: Dark mode (automatic or manual switch).
-- International: English, Chinese (CHS/CHT), French, German, Portuguese(Brazil) support.
-- ...
+- Simple and easy to customize
+- Concentrated on reading <del>and writing (find a Markdown editor then)</del> experience
+- Mobile-friendly & widescreen-friendly
+- Flexible commenting control
 
-For details, please visit [project wiki](https://github.com/AmazingRise/hugo-theme-diary/wiki/).
+Features in this ported version:
 
-### Features in new version
-
-<details>
-<summary>CHANGELOG</summary>
-
-1.3.0:
-
-- Removed jQuery and other redundant scripts.
-- Some improvements on performance.
-
-</details>
+- Add Gitalk and Valine intergration.
+- Customizable color scheme. (Some bug in original version, fixed.)
+- Firefox-friendly. (CSS issue in original version, fixed.)
+- `featured_image` url bug is fixed.
+- Table of Contents with scroll spy.
+- Dark mode.
+- MathJax support. (Needs to be enabled manually, see [the project wiki](https://github.com/amazingrise/hugo-theme-diary/wiki) for details.)
+- Google Custom Search Engine support.
 
 ## Quick Start
-
-<details>
-<summary>Click to expand</summary>
 
 If your website is using Git as version control, please do as follows:
 
@@ -71,77 +65,58 @@ From the root of themes/diary/exampleSite:
 ```bash
 hugo server --themesDir ../..
 ```
-
-</details>
-
 ## Personalization
 
 ### Example config
 
-See [/exampleSite/config.toml](https://github.com/AmazingRise/hugo-theme-diary/blob/main/exampleSite/config.toml)
+See [/exampleSite/config.toml](https://github.com/AmazingRise/hugo-theme-diary/blob/master/exampleSite/config.toml)
 
 ### Customization
 
-- [Wiki Home](https://github.com/AmazingRise/hugo-theme-diary/wiki)
-- Configurations
-  * [Internationalization(i18n)](https://github.com/AmazingRise/hugo-theme-diary/wiki/Internationalization)
-  * [Sidebar](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#customize-sidebar)
-  * [Favicon](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#add-favicon)
-  * [Table Of Contents](https://github.com/AmazingRise/hugo-theme-diary/wiki/Table-Of-Contents)
-  * [Enable/Disable Comment](https://github.com/AmazingRise/hugo-theme-diary/wiki/Comment-Area)
-- 3rd. party services
-  * [Comment Services](https://github.com/AmazingRise/hugo-theme-diary/wiki/Comment)
-  * [Google Analytics](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#add-google-analytics)
-  * [Google Site Verification](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#add-google-site-verification)
-  * [Google Search Intergration](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#add-google-search-box-on-your-site)
-- Writing
-  * [Meta Data](https://github.com/AmazingRise/hugo-theme-diary/wiki/Post's-meta-data)
-  * [LaTeX Support](https://github.com/AmazingRise/hugo-theme-diary/wiki/MathJax)
-  * [RSS Feed](https://github.com/AmazingRise/hugo-theme-diary/wiki/RSS-Feed)
-  * [Inserting Figures](https://github.com/AmazingRise/hugo-theme-diary/wiki/Inserting-Figures)
-- Styling
-  * [Color Scheme](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#change-color-scheme)
-  * [Code Highlight](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#about-highlight)
-  * [Font Family](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#change-default-font-scheme)
-  * [Reading Time](https://github.com/AmazingRise/hugo-theme-diary/wiki/Reading-Time)
-  * [Dark Mode](https://github.com/AmazingRise/hugo-theme-diary/wiki/Dark-Mode)
-- [Troubleshooting](https://github.com/AmazingRise/hugo-theme-diary/wiki/Troubleshooting)
+Please visit [the project wiki](https://github.com/amazingrise/hugo-theme-diary/wiki) for more details.
 
+[Disable Table of Contents](https://github.com/AmazingRise/hugo-theme-diary/wiki/Table-Of-Contents)
+
+[Disable Dark Mode](https://github.com/AmazingRise/hugo-theme-diary/wiki/Dark-Mode)
+
+[Enable MathJax](https://github.com/AmazingRise/hugo-theme-diary/wiki/MathJax)
+
+[Add or disable comment area](https://github.com/AmazingRise/hugo-theme-diary/wiki/Comment-Area)
+
+[Add Google Search Box on your site](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization#add-google-search-box-on-your-site)
+
+[Customizations](https://github.com/AmazingRise/hugo-theme-diary/wiki/Customization)
+
+[Taxonomies and Sections (Archive, Categories and Tags)](https://github.com/AmazingRise/hugo-theme-diary/wiki/Taxonomies-and-Sections-(Archive,-Categories-and-Tags))
+
+[RSS Feed](https://github.com/AmazingRise/hugo-theme-diary/wiki/RSS-Feed)
+
+[Meta Data of posts](https://github.com/AmazingRise/hugo-theme-diary/wiki/Post's-meta-data)
+
+[Enable Reading Time](https://github.com/AmazingRise/hugo-theme-diary/wiki/Reading-Time)
+
+## Comparison
+
+For details about the difference lies in the new version, please click [here.](https://github.com/AmazingRise/hugo-theme-diary/wiki/Comparison)
 
 ## Screenshots
 
-<details>
-<summary>Index Page</summary>
+Site Main Page
 
-![](images/main.png)
+![](https://raw.githubusercontent.com/AmazingRise/hugo-theme-diary/master/images/tn.png)
 
-</details>
+An essay with picture.
 
-<details>
-<summary>Post</summary>
+![](https://raw.githubusercontent.com/AmazingRise/hugo-theme-diary/master/images/essay.png)
 
-![](images/essay.png)
+Table of Contents with scroll spy.
 
-![](images/essay2.png)
+![](https://raw.githubusercontent.com/AmazingRise/hugo-theme-diary/master/images/essay2.png)
 
-</details>
+Mobile View: Main Page
 
-<details>
-<summary>Dark Mode</summary>
+![](https://raw.githubusercontent.com/AmazingRise/hugo-theme-diary/master/images/m_main.png)
 
-![](images/dark.png)
+Mobile View: Drawer
 
-</details>
-
-<details>
-<summary>Mobile View</summary>
-
-![](images/m_main.png)
-
-![](images/m_drawer.png)
-
-</details>
-
-
-
-</details>
+![](https://raw.githubusercontent.com/AmazingRise/hugo-theme-diary/master/images/m_drawer.png)

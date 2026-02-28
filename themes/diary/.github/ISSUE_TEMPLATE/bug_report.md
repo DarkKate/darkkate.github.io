@@ -20,7 +20,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Environment**
-Hugo version (generated from `hugo version`), and your browser version.
+Your Hugo version, generated from `hugo version`.
+(OS information also included in hugo version, so you don't need to tell this.)
+And your browser's basic information.
 
 **Additional context**
 Add any other context about the problem here.

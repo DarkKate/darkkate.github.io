@@ -1,7 +1,7 @@
 baseURL = "http://insideout.top/"
-languageCode = "zh"
+languageCode = "zh-cn"
 title = "insideout"
-copyright = "2014 - 2022, All Rights Reserved"
+copyright = "2014 - 2026, All Rights Reserved"
 theme = "diary"
 googleAnalytics = "UA-51193598-1"
 disqusShortname = "insideout-top"
@@ -12,7 +12,6 @@ favicon = "/favicon.ico"
 
 [frontmatter]
 date  = [":filename", ":default"]
-
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
 

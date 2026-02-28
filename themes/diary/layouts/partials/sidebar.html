@@ -1,8 +1,8 @@
-<div id="sideContainer" class="side-container">
+<div ref="sideContainer" class="side-container">
     {{ if eq .Title .Site.Title}}
-    <a class="a-block nav-head active" href="{{ "" | absLangURL }}">
+    <a class="a-block nav-head active" href="{{.Site.BaseURL}}">
     {{ else }}
-    <a class="a-block nav-head false" href="{{ "" | absLangURL }}">
+    <a class="a-block nav-head false" href="{{.Site.BaseURL}}">
     {{ end }}
         <div class="nav-title">
             {{.Site.Title}}
@@ -15,7 +15,7 @@
     </a>
 
     <div class="nav-link-list">
-        {{ $current := .RelPermalink | absLangURL }}
+        {{ $current := .Permalink | absLangURL }}
         {{ range .Site.Menus.main }}
             {{$actived := "false"}}
             <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
@@ -23,14 +23,11 @@
                 {{$actived = "active"}}
             {{end}}
             {{ if .HasChildren }}
-            <div class="a-block" class="nav-link-item {{$actived}}" v-on:click="isHidden = !isHidden">
-                {{ .Name }}
-                <div class="nav-link-subitem" v-if="!isHidden">
-                    {{ range .Children }}
+            <parent name="{{ .Name }}" type="nav-link-item {{$actived}}">
+                {{ range .Children }}
                     <li><a href="{{ .URL }}"> {{ .Name }}</a></li>
-                    {{ end }}
-                </div>
-            </div>
+                {{ end }}
+            </parent>
             {{ else }}
             <!--<a class="a-block nav-link-item {{$actived}}" href="{{ .URL }}">-->
             <a class="a-block nav-link-item {{ $actived }}" href="{{ .URL }}">
