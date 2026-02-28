@@ -1,8 +1,7 @@
 ---
 title: About
 date: 2020-05-07T01:09:14+08:00
-type: about
-kind: "page" # 核心：标记为独立页面，而非文章（RegularPages）
+type: page
 description: About Page
 ---
 
